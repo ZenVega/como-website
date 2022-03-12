@@ -1,5 +1,13 @@
-$primary: #1E398F;
+$primary: #385BA7;
 $secondary: #121212;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 743px,
+  xl: 743px,
+  xxl: 743px,
+);
 
 @import 'bootstrap/bootstrap';
 @import 'fonts';
@@ -8,3 +16,68 @@ $secondary: #121212;
     font-family: 'ClanWebPro-Book', sans-serif;
 }
 
+main {
+	margin-top: 100px;
+}
+
+h2 {
+    color: #1E398F;
+    font-family: 'ClanWebPro-Bold', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.subheader {
+    color: #1E398F;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+.img-info {
+    margin: 70px 0;
+}
+
+#hero {
+    display: block;
+    width: 1128px;
+    margin: 0 auto;
+    position: relative;
+    top: -78px;
+}
+
+#hero #hero-content {
+    position: absolute;
+    width: 767px;
+    height: 616px;
+    top: 36px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(80px);
+    padding: 127px 76px 0 72px;
+}
+
+#hero-content .btn {
+    margin-top: 48px;
+}
+
+#container-mitmachen {
+    padding: 55px 0;
+}
+
+#container-aufbau {
+    background-color: #E1F5FE;
+    padding: 55px 0;
+}
+
+#container-ueber {
+    padding: 55px 0;
+}
+
+#container-ueber h2 {
+    margin-bottom: 23px;
+}
+
+.row-member {
+    margin-top: 72px;
+}

@@ -1,0 +1,28 @@
+hero:
+  header: Lerne deine Raumluft kennen.
+  subheader: Für mehr saubere Luft in Berliner Innenräumen.
+  p1: Keine Lust auf dicke Luft? COMo sorgt mit der Hilfe von CO2 Sensoren für frischen Wind in deinen Räumlichkeiten - objektiv und datenbasiert!
+  button:
+    text: Jetzt bewerben
+    href: registrieren.html
+mitmachen:
+  header: Mitstreiter:innen gesucht.
+  subheader: Du betreibst einen öffentlichen Raum? Dann mach mit!
+  p1: Unser Ziel ist es, gemeinsam mit Betreiber:innen von öffentlich zugänglichen Innenräumen aus allen möglichen Bereichen wie Bildung, Kultur, Gastronomie, Verwaltung, Gesundheit und Gewerbe die Qualität der Raumluft zu verbessern.
+  p2: Um dies zu ermöglichen, wird in deinen Räumlichkeiten ein spezieller CO2 Sensor installiert, der über Funk und dem nächstgelegenen Gateaway seine Messdaten ins Internet übermittelt. Dabei setzen wir auf die LoRaWan-Technik, welche es ermöglicht, dass der Sensor seine Daten möglichst uneingeschränkt über weite Distanzen übertragen kann.
+aufbau:
+  header: Sensoren machen’s möglich.
+  subheader: Hinhängen und fertig.
+  p1: Unsere Sensoren werden dir kostenlos und bereits einsatzfähig zugestellt. Alles was du machen musst, ist einen geeigneten Platz für deinen Sensor zu finden und ihn dort aufzuhängen.
+  p2: Die Sensoren können dank der LoRaWan-Technik komplett selbstständig Messdaten erfassen und übermitteln. Über unser Webportal kannst du dann als Betreiber:in deine Daten nicht nur jederzeit abrufen, sondern auch direkt sichtbar machen.
+ueber:
+  header: Über uns
+  p1: Das Projekt CoMo ist aus der Clair Berlin Initiative entstanden. In Abstimmung mit der Technologiestiftung Berlin und der Hochschule für Technik und Wirtschaft Berlin (HTW) wurde Clair Berlin mit Förderung der Senatskanzlei Berlin in das Pilotprojekt COMo überführt.
+  p2: Das LoRaWan-Netzwerk in Berlin wird zu großen Teilen von den Freiwilligen der The Things Network Community Berlin (TTN Berlin) betrieben, ohne diese wären solche Projekte nicht möglich.
+  members:
+    - logo: TSB_Logo_DE_H_P_RGB.png
+      text: COMo ist ein Projekt der Technologiestiftung Berlin. Die Stiftung leitet das Projekt und agiert an der Schnittstelle zwischen Wissenschaft, Technik, Verwaltung und der Stadtgesellschaft.
+    - logo: Q04_HTW_Berlin_Logo_quer_pos_FARBIG_RGB.png
+      text: Professor Birgit Müller, Leiterin des Lehrgebiets Gebäudeenergietechnik und Informationstechnik an der Hochschule für Technik und Wirtschaft, unterstützt mit ihrem Team das Projekt mit ihrer wissenschaftlichen Expertise.
+    - logo: KOING-logo.png
+      text: Als Initiatorin von Clair Berlin unterstützt die KOING GmbH vor allem mit IT-Knowledge und ist zuständig für die technische Umsetzung der Plattform.
