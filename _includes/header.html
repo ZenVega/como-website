@@ -1,0 +1,26 @@
+<header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3 fw-bold" href="/">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                {% if page.sections %}
+                <ul class="navbar-nav mb-2 mb-md-0">
+                    {% for section in page.sections %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#{{ section.id }}">{{ section.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+</header>
