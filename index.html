@@ -1,8 +1,8 @@
 ---
 layout: default
+title: Home
 ---
 <div id="hero">
-    <img src="assets/img/bg-img.png">
     <div id="hero-content">
         <h2>{{ site.data.home.hero.header }}</h2>
         <div class="subheader">
@@ -19,13 +19,17 @@ layout: default
     </div>
 </div>
 
-<div id="container-mitmachen" class="container">
-    <h2>{{ site.data.home.mitmachen.header }}</h2>
-    <div class="subheader">
-        {{ site.data.home.mitmachen.subheader }}
+<div id="container-mitmachen" class="container container-section">
+    <div class="row">
+        <div class="col-12 col-lg-8 offset-lg-2">
+            <h2 id="mitmachen">{{ site.data.home.mitmachen.header }}</h2>
+            <div class="subheader">
+                {{ site.data.home.mitmachen.subheader }}
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-lg-8 offset-lg-2">
             {{ site.data.home.mitmachen.p1 }}
         </div>
     </div>
@@ -34,20 +38,24 @@ layout: default
             alt="Schematischer Ablauf">
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-lg-8 offset-lg-2">
             {{ site.data.home.mitmachen.p2 }}
         </div>
     </div>
 </div>
 
 <div id="container-aufbau" class="container-fluid">
-    <div class="container">
-        <h2>{{ site.data.home.aufbau.header }}</h2>
-        <div class="subheader">
-            {{ site.data.home.aufbau.subheader }}
+    <div class="container container-section">
+        <div class="row">
+            <div class="col-12 col-lg-8 offset-lg-2">
+                <h2>{{ site.data.home.aufbau.header }}</h2>
+                <div class="subheader">
+                    {{ site.data.home.aufbau.subheader }}
+                </div>
+            </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 {{ site.data.home.aufbau.p1 }}
             </div>
         </div>
@@ -56,31 +64,35 @@ layout: default
                 alt="Schematischer Ablauf">
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-lg-8 offset-lg-2">
                 {{ site.data.home.aufbau.p2 }}
             </div>
         </div>
     </div>
 </div>
 
-<div id="container-ueber" class="container">
-    <h2>{{ site.data.home.ueber.header }}</h2>
+<div id="container-ueber" class="container container-section">
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-lg-8 offset-lg-2">
+            <h2 id="ueber-uns">{{ site.data.home.ueber.header }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-lg-8 offset-lg-2">
             {{ site.data.home.ueber.p1 }}
         </div>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-lg-8 offset-lg-2">
             {{ site.data.home.ueber.p2 }}
         </div>
     </div>
     {% for member in site.data.home.ueber.members %}
     <div class="row row-member">
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-3 offset-lg-2">
             <img src="assets/img/{{ member.logo }}">
         </div>
-        <div class="col-12 col-lg-8">
+        <div class="col-12 col-lg-5">
             {{ member.text }}
         </div>
     </div>

@@ -1,34 +1,71 @@
-$primary: #385BA7;
+$primary: #385ba7;
 $secondary: #121212;
 
+$btn-border-radius: 2px;
+$btn-padding-x: 22px;
+$btn-padding-y: 8px;
+
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 743px,
-  xl: 743px,
-  xxl: 743px,
+    sm: 528px,
+    md: 720px,
+    lg: 840px,
+    xl: 1048px,
+    xxl: 1128px,
 );
 
-@import 'bootstrap/bootstrap';
-@import 'fonts';
+$grid-gutter-width: 0;
+
+@import "bootstrap/bootstrap";
+@import "fonts";
 
 * {
-    font-family: 'ClanWebPro-Book', sans-serif;
+    font-family: "ClanPro", sans-serif;
+    color: #3b3b3a;
+    line-height: 32px;
+}
+
+[id] {
+    @media (min-height: 32em) {
+        scroll-margin-top: 96px;
+    }
+}
+
+.navbar {
+    height: 96px;
+}
+
+button.navbar-toggler {
+    padding: 0;
+    border: 0;
+}
+
+.btn-primary {
+    color: #eff0f0;
+}
+
+.nav-item {
+    font-size: 14px;
+    line-height: 24px;
+    color: #3b3b3a;
+}
+
+.nav-link {
+    padding: 0 24px !important;
 }
 
 main {
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 h2 {
-    color: #1E398F;
-    font-family: 'ClanWebPro-Bold', sans-serif;
+    color: #1e398f;
+    font-family: "ClanWebPro-Bold", sans-serif;
     font-weight: 700;
     margin: 0;
 }
 
 .subheader {
-    color: #1E398F;
+    color: #1e398f;
     font-weight: 400;
     margin-bottom: 26px;
 }
@@ -39,17 +76,23 @@ h2 {
 
 #hero {
     display: block;
-    width: 1128px;
-    margin: 0 auto;
     position: relative;
-    top: -78px;
+    top: -36px;
+    width: 100%;
+    max-width: 1128px;
+    height: 636px;
+    margin: 0 auto;
+    background: url("../img/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
 }
 
 #hero #hero-content {
     position: absolute;
-    width: 767px;
+    width: 65%;
+    top: 30px;
     height: 616px;
-    top: 36px;
     left: 0;
     background: rgba(255, 255, 255, 0.5);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
@@ -61,17 +104,22 @@ h2 {
     margin-top: 48px;
 }
 
+.container-section {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
 #container-mitmachen {
-    padding: 55px 0;
+    // padding: 55px 0;
 }
 
 #container-aufbau {
-    background-color: #E1F5FE;
-    padding: 55px 0;
+    background-color: #e1f5fe;
+    // padding: 55px 0;
 }
 
 #container-ueber {
-    padding: 55px 0;
+    // padding: 55px 0;
 }
 
 #container-ueber h2 {
@@ -80,4 +128,49 @@ h2 {
 
 .row-member {
     margin-top: 72px;
+}
+
+.footer {
+    margin-top: 278px;
+    padding-top: 38px;
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+    height: 208px;
+}
+.header-footer {
+    font-family: "ClanPro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3b3b3a;
+}
+
+#sponsor-logo {
+    margin-top: 13px;
+}
+
+.container-footer-bottom {
+    margin-top: 52px;
+    padding: 14px 0;
+    background-color: #1e398f;
+}
+
+.container-footer-bottom * {
+    font-family: "ClanPro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #f6f6f6;
+}
+
+.sitemap-item {
+    font-family: "ClanPro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #565656;
+    text-decoration: none;
 }

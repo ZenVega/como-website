@@ -1,0 +1,47 @@
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="header-footer">
+                    Ein Projekt von:
+                </div>
+                <img src="assets/img/TSB_Logo_DE_H_P_RGB.png" width="186">
+            </div>
+            <div class="col-lg-3">
+                <div class="header-footer">
+                    Gefördert von:
+                </div>
+                <img id="sponsor-logo" src="assets/img/B_SEN_KuEu_Logo_DE_H_PT_RGB.png" width="264">
+            </div>
+            <div class="col-lg-4 offset-lg-2">
+                <div class="header-footer">
+                    Sitemap
+                </div>
+                <div class="container">
+                    <div class="row">
+                        {% for item in site.data.sitemap %}
+                        <div class="col-lg-6">
+                            <a class="sitemap-item" href="{{ item.href }}">{{ item.text }}</a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid container-footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    &copy; 2022 Technologiestiftung Berlin
+                </div>
+                <div class="col-lg-2 offset-lg-4">
+                    Datenschutzerklärung
+                </div>
+                <div class="col-lg-2">
+                    Impressum
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
