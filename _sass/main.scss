@@ -189,3 +189,13 @@ h2 {
     color: #565656;
     text-decoration: none;
 }
+
+.footer-link {
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #f6f6f6;
+}
