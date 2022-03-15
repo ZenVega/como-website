@@ -21,8 +21,11 @@ ueber:
   p2: Das LoRaWan-Netzwerk in Berlin wird zu großen Teilen von den Freiwilligen der The Things Network Community Berlin (TTN Berlin) betrieben, ohne diese wären solche Projekte nicht möglich.
   members:
     - logo: TSB_Logo_DE_H_P_RGB.png
+      width: 189
       text: COMo ist ein Projekt der Technologiestiftung Berlin. Die Stiftung leitet das Projekt und agiert an der Schnittstelle zwischen Wissenschaft, Technik, Verwaltung und der Stadtgesellschaft.
     - logo: Q04_HTW_Berlin_Logo_quer_pos_FARBIG_RGB.png
+      width: 189
       text: Professor Birgit Müller, Leiterin des Lehrgebiets Gebäudeenergietechnik und Informationstechnik an der Hochschule für Technik und Wirtschaft, unterstützt mit ihrem Team das Projekt mit ihrer wissenschaftlichen Expertise.
     - logo: KOING-logo.png
+      width: 141
       text: Als Initiatorin von Clair Berlin unterstützt die KOING GmbH vor allem mit IT-Knowledge und ist zuständig für die technische Umsetzung der Plattform.
