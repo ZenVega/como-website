@@ -1,0 +1,42 @@
+---
+layout: default
+title: FAQ
+---
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-8 offset-lg-2">
+            <h2>FAQs</h2>
+            <div class="mt-4">
+                <strong class="text-primary">Inhalt</strong>
+            </div>
+            {% for section in site.data.faq.sections %}
+            <div><a class="text-dark" href="#{{ section.title | slugify }}">{{ section.title }}</a></div>
+            {% endfor %}
+
+            {% for section in site.data.faq.sections %}
+            {% assign section_id = section.title | slugify %}
+            <h3 class="h3-faq" id="{{ section_id }}">{{ section.title }}</h3>
+
+            <div class="accordion" id="acc-{{ section_id }}">
+                {% for faq in section.questions %}
+                {% assign question_id = faq.question | slugify %}
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="h2-{{ question_id }}">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#{{ question_id }}" aria-controls="{{ question_id }}">
+                            {{ faq.question }}
+                        </button>
+                    </h2>
+                    <div id="{{ question_id }}" class="accordion-collapse collapse"
+                        aria-labelledby="h2-{{ question_id }}" data-bs-parent="#acc-{{ section_id }}">
+                        <div class="accordion-body">
+                            {{ faq.answer }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
