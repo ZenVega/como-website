@@ -13,6 +13,11 @@ $container-max-widths: (
     xxl: 1128px,
 );
 
+$accordion-button-active-bg: #fff;
+$accordion-button-active-color: #212529;
+$accordion-button-icon: url("../img/plus.svg");
+$accordion-button-active-icon: url("../img/minus.svg");
+
 @import "bootstrap/bootstrap";
 @import "fonts";
 
