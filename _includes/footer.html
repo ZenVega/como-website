@@ -1,26 +1,27 @@
-<div class="footer">
+<div class="footer mt-lg-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-12 col-lg-3 order-2 order-lg-1 pt-4 pt-lg-0">
                 <div class="header-footer">
                     Ein Projekt von:
                 </div>
-                <img src="assets/img/TSB_Logo_DE_H_P_RGB.png" width="186">
+                <img class="d-block mx-auto mx-lg-0" src="assets/img/TSB_Logo_DE_H_P_RGB.png" width="186">
             </div>
-            <div class="col-lg-3">
+            <div class="col-12 col-lg-3 order-3 order-lg-2 pt-4 pt-lg-0">
                 <div class="header-footer">
-                    Gefördert von:
+                    Gefördert durch:
                 </div>
-                <img id="sponsor-logo" src="assets/img/B_SEN_KuEu_Logo_DE_H_PT_RGB.png" width="264">
+                <img id="sponsor-logo" class="d-block mx-auto mx-lg-0" src="assets/img/B_SEN_KuEu_Logo_DE_H_PT_RGB.png"
+                    width="264">
             </div>
-            <div class="col-lg-4 offset-lg-2">
+            <div class="col-12 col-lg-4 offset-lg-2 order-1 order-lg-3">
                 <div class="header-footer">
                     Sitemap
                 </div>
-                <div class="container">
-                    <div class="row">
+                <div class="container px-0">
+                    <div class="row mx-0">
                         {% for item in site.data.sitemap %}
-                        <div class="col-lg-6">
+                        <div class="col-6 px-0">
                             <a class="sitemap-item" href="{{ item.href }}">{{ item.text }}</a>
                         </div>
                         {% endfor %}
@@ -32,14 +33,17 @@
     <div class="container-fluid container-footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-12 col-lg-4 order-2 order-lg-1 d-flex justify-content-center d-lg-block">
                     &copy; 2022 Technologiestiftung Berlin
                 </div>
-                <div class="col-lg-4 offset-lg-4">
-                    <a class="footer-link" target="_blank" href="https://www.technologiestiftung-berlin.de/datenschutz">
+                <div
+                    class="col-12 col-lg-4 offset-lg-4 order-1 order-lg-2 d-flex justify-content-center py-3 py-lg-0 d-lg-block">
+                    <a class="footer-link px-3 px-lg-0 me-lg-5" target="_blank"
+                        href="https://www.technologiestiftung-berlin.de/datenschutz">
                         Datenschutzerklärung
                     </a>
-                    <a class="footer-link" target="_blank" href="https://www.technologiestiftung-berlin.de/impressum">
+                    <a class="footer-link px-3 px-lg-0" target="_blank"
+                        href="https://www.technologiestiftung-berlin.de/impressum">
                         Impressum
                     </a>
                 </div>
