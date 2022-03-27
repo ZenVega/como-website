@@ -97,7 +97,7 @@ title: Home
     {% for member in site.data.home.ueber.members %}
     <div class="row row-member">
         <div class="col-12 col-lg-3 offset-lg-2">
-            <img src="assets/img/{{ member.logo }}" width="{{ member.width }}">
+            <img class="d-block mx-auto" src="assets/img/{{ member.logo }}" width="{{ member.width }}">
         </div>
         <div class="col-12 col-lg-5">
             {{ member.text }}
