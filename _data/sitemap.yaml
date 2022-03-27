@@ -1,8 +1,8 @@
 - text: Home
-  href: "#home"
+  href: "index.html#home"
 - text: Mitmachen
-  href: "#mitmachen"
+  href: "index.html#mitmachen"
 - text: Über Uns
-  href: "#ueber-uns"
+  href: "index.html#ueber-uns"
 - text: FAQ
   href: faq.html
