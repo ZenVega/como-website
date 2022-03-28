@@ -7,11 +7,11 @@ title: FAQ
     <div class="row">
         <div class="col-12 col-lg-8 offset-lg-2">
             <h2>FAQs</h2>
-            <div class="mt-4">
+            <div class="mt-5">
                 <strong class="text-primary">Inhalt</strong>
             </div>
             {% for section in site.data.faq.sections %}
-            <div><a class="text-dark" href="#{{ section.title | slugify }}">{{ section.title }}</a></div>
+            <div class="my-4"><a class="text-dark" href="#{{ section.title | slugify }}">{{ section.title }}</a></div>
             {% endfor %}
 
             {% for section in site.data.faq.sections %}
