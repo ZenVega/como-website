@@ -22,8 +22,17 @@
                 </div>
                 <ul class="navbar-nav ms-5 mx-lg-auto">
                     {% for nav in site.data.nav %}
+                    {% if page.name == "index.html" %}
+                    {% assign href = nav.href | remove: "index.html" %}
+                    {% else %}
+                    {% assign href = nav.href %}
+                    {% endif %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ nav.href }}">{{ nav.text }}</a>
+                        {% if href == page.name %}
+                        <a class="nav-link active" href="{{ href }}">{{ nav.text }}</a>
+                        {% else %}
+                        <a class="nav-link" href="{{ href }}">{{ nav.text }}</a>
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>
