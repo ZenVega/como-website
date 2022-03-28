@@ -1,0 +1,97 @@
+.subheader {
+    color: #1e398f;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+.img-info {
+    margin: 70px 0;
+}
+
+#hero-background {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    width: 100%;
+    height: 636px;
+    margin: 0 auto;
+    background: url("../img/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
+}
+
+@include media-breakpoint-only(xl) {
+    #hero-background {
+        max-width: 1048px;
+    }
+}
+
+@include media-breakpoint-only(xxl) {
+    #hero-background {
+        max-width: 1128px;
+    }
+}
+
+#hero-content {
+    background: rgba(230, 230, 230, 0.9);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(80px);
+    position: relative;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: 410px 24px 0 24px;
+    padding: 42px 28px;
+}
+
+#hero-content .btn {
+    margin-top: 48px;
+}
+
+@include media-breakpoint-up(lg) {
+    #hero-content {
+        top: -20px;
+        width: 65%;
+        height: 624px;
+        margin: 0;
+        padding: 127px 76px 0 72px;
+    }
+}
+
+.container-section {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+#container-mitmachen {
+    // padding: 55px 0;
+}
+
+#container-aufbau {
+    background-color: #e1f5fe;
+    // padding: 55px 0;
+}
+
+#schematischer-ablauf-vertikal {
+    position: relative;
+    left: -18px;
+}
+
+#infografik-aufbau-vertikal {
+    position: relative;
+    left: -28px;
+}
+
+#container-ueber {
+    // padding: 55px 0;
+}
+
+#container-ueber h2 {
+    margin-bottom: 23px;
+}
+
+.row-member {
+    margin-top: 72px;
+}
