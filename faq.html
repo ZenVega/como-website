@@ -13,6 +13,7 @@ title: FAQ
             {% for section in site.data.faq.sections %}
             <div class="my-4"><a class="text-dark" href="#{{ section.title | slugify }}">{{ section.title }}</a></div>
             {% endfor %}
+            <div class="my-4"><a class="text-dark" href="#nochEineFrage">Ich habe immer noch eine Frage!</a></div>
 
             {% for section in site.data.faq.sections %}
             {% assign section_id = section.title | slugify %}
@@ -31,13 +32,19 @@ title: FAQ
                     <div id="{{ question_id }}" class="accordion-collapse collapse"
                         aria-labelledby="h2-{{ question_id }}" data-bs-parent="#acc-{{ section_id }}">
                         <div class="accordion-body">
-                            {{ faq.answer }}
+                            {{ faq.answer | markdownify }}
                         </div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
             {% endfor %}
+            <h3 class="h3-faq" id="nochEineFrage">Ich habe immer noch eine Frage!</h3>
+            <div>
+                Das FAQ konnte dir nicht weiterhelfen oder du hast eine
+                komplexere Anfrage? Dann schreib uns eine E-Mail an
+                <a href="mailto:info@como-berlin.de">info@como-berlin.de</a>.
+            </div>
         </div>
     </div>
 </div>

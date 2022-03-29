@@ -1,25 +1,81 @@
-sections:
-  - title: Allgemeine Fragen
+﻿sections:
+  - title: Allgemein
     questions:
-      - question: Lorem Ipsum 1
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
-      - question: Lorem Ipsum 2
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
+      - question: Wer kann mitmachen?
+        answer: |
+          Alle Betreiber:innen von öffentlich zugänglichen Innenräumen aus den Bereichen Bildung, Kultur, Verwaltung, Gastronomie, Gewerbe und Gesundheit in Berlin können beim COMo - Projekt mitmachen. Hast auch du Interesse? Dann melde dich bei uns über das Kontaktformular oder schicke eine E-Mail an unsere Ansprechpartner:innen. 
+
+          Da wir vorerst nur eine begrenzte Anzahl von Sensoren zur Verfügung stellen können, müssen wir gegebenenfalls aus der Gesamtheit der Anmeldungen auswählen. Wir bitten dafür um Verständnis.
+      - question: Warum sollte die CO2 - Konzentration in Innenräumen gemessen werden?
+        answer: |
+          Ein angepasstes Lüftungsmanagement verbessert das Wohlbefinden und die Lern- und Arbeitsproduktivität in Räumen. In der Heizperiode können durch das bedarfsgerechte Lüften zudem Heizkosten eingespart werden. 
+
+          Außerdem ist die CO2 - Konzentration in Innenräumen ein guter Indikator für die Konzentration menschlicher Aerosole. Eine niedrigere Anzahl Aerosole in der Luft kann das Risiko einer Ansteckung mit dem Coronavirus minimieren. Wer genau weiß, wann sich die Luftqualität verschlechtert, also eine erhöhte Aerosollast im Raum ist, kann entsprechend bedarfsgerecht lüften. 
+
+          An folgenden Richtwerten orientieren wir uns:  
+          CO2 < 1000 ppm -> „hygienisch unbedenklich“  
+          1000 < CO2 < 2000 ppm -> „hygienisch auffällig“  
+          CO2 > 2000 ppm -> „hygienisch inakzeptabel“
+      - question: Wie genau kann uns ein CO2 - Sensor bei der Verbesserung der Luftqualität unterstützen?
+        answer: |
+          Ein CO2 - Sensor nimmt die Umgebungsluft auf und bestimmt den Anteil an CO2 - Molekülen, typischerweise in der Einheit ppm, Parts per Million (Anzahl pro Million).Vernetzte CO2 - Sensoren sind kommerziell erhältlich und sind etwa so groß wie ein Rauchmelder. Sie verfügen über einen Netzwerkanschluss, sodass sie die Messdaten über das Internet an einen Server schicken können - wie die COMo - Plattform. Wir nutzen also den Sensor als Hilfsmittel zur Messung von CO2 - Werten und anschliessend zur Übertragung der Daten über das LoRaWAN - Netzwerk. Durch die Aufarbeitung und Visualisierung der Daten können wir danach Aussagen über die Luftqualität herleiten und dich beim bedarfsgerechten Lüften unterstützen.
+
+          Durch eine konstante Übertragung von Messdaten ergibt sich auch ein Vorteil gegenüber einer CO2 - Ampel, die lediglich eine Aussage über die aktuelle Luftqualität treffen kann. Daten, die jedoch über einen längeren Zeitraum gesammelt werden, zeigen, dass der Raum regelmäßig gelüftet wird und die Betreiber:innen sich nachhaltig um gute Luftqualität kümmern.
+      - question: Wie geht es mit dem Projekt weiter, wenn die Corona-Pandemie vorbei ist?
+        answer: |
+          Über die Pandemie hinaus verbessert ein angepasstes Lüftungsmanagement das Wohlbefinden und die Lern- und Arbeitsproduktivität im Raum. Eine gute Luftqualität hilft auch gegen andere Infektionen und steigert außerdem das Konzentrationsvermögen. Diese Punkte sprechen dafür, dass es auch langfristig einen Bedarf an Informationen über die Luftqualität in öffentlich zugänglichen Räumen geben wird. 
+
+          Zusätzlich sehen wir einen Aspekt als sehr wichtig an, der bislang noch kaum diskutiert wird: Die Energieeffizienz von Lüftungsmaßnahmen. Gebäudewärme macht ca. 30% unseres gesamten CO2 - Ausstoßes aus. Optimierte Lüftung sowie gut geplante Lüftungsanlagen können dafür sorgen, dass beim Luftaustausch nicht die ganze Wärme mit nach draußen befördert wird. Die Datenbasis vernetzter CO2 - Sensoren könnte in Zukunft auch für die Planung von Energiesparmaßnahmen genutzt werden. 
+
+          Teil des Projektes ist die Evaluierung der Daten in Zusammenarbeit mit der Hochschule für Technik und Wirtschaft Berlin. Sie wird zeigen, ob eine Ausstattung weiterer Gebäude wie Schulen, Ämter und Kultureinrichtungen mit CO2 - Sensoren sinnvoll ist und welchen Einfluss dies auf die Klimatisierung der Gebäude hat.
+  - title: Sensoren
+    questions:
+      - question: Wie funktioniert die Datenübertragung mithilfe des Sensors?
+        answer: |
+          CO2 - Sensoren messen die CO2 - Konzentration der Luft in regelmässigen Abständen. Die gemessenen Daten schickt der Sensor dann drahtlos bis zu einem Gateway und von dort weiter über das Internet an unsere Plattform.
+
+          Sensoren können verschiedene Funknetzwerke nutzen, um ihre Daten zu übermitteln. Unsere Sensoren konzentrieren sich auf die auf Messdaten spezialisierte Technologie LoRaWAN, die eine große Reichweite und einen geringen Energieverbrauch bietet. Das LoRaW - Netzwerk in Berlin wird zu großen Teilen von den Freiwilligen der The Things Network Community Berlin ([TTN Berlin](https://www.thethingsnetwork.org/community/berlin/)) betrieben, ohne diese wären solche Projekte nicht möglich.
+      - question: Welcher Sensor kommt zum Einsatz?
+        answer: |
+          Wir benutzen die [CO2 - Sensoren ERS LITE der Firma Elsys](https://www.elsys.se/en/ers-co2-lite/). Diese Sensoren sind in der Lage CO2 - Werte zu messen und diese Informationen mit der LoRaWAN - Technologie zu senden. 
+
+          Der Sensor kann so eingestellt werden, dass in den gewünschten zeitlichen Abständen ein Messwert aufgenommen und gesendet wird. Zwischen zwei Messungen befindet sich der Sensor im “Sleep” Modus und hat somit nur einen geringen Stromverbrauch. Je nach Einstellungen und Netzabdeckung des Standortes können die Batterien dadurch eine Lebensdauer von bis zu 5 Jahren haben. Der Sensor sendet dabei auf einem öffentlich freiem Frequenzband.
+      - question: Wie sollte der Sensor am besten platziert werden?
+        answer: |
+          Damit der Sensor am effizientesten den CO2 - Gehalt messen kann, sollte dieser in dem Bereich des Raumes aufgehängt werden, in dem sich die meisten Personen aufhalten, also auch die meiste Luft ein- und ausgeatmet wird. Für eine optimale Datenerhebung wird empfohlen, den Sensor in der Mitte des Raumes auf Nasenhöhe anzubringen. Das ist meist schwer zu realisieren und je nach Tätigkeit kann die Höhe variieren. Ein Richtwert ist deher 1,70 m (stehend) und 1,10 m (sitzend). 
+
+          Damit eine ungehinderte Durchströmung der Luftschlitze im Sensorgehäuse ermöglicht und die Ergebnisse nicht verfälscht werden, sollte dieser frei hängen und nicht von baulichen Hindernissen (wie Säulen oder Möbeln) oder anderen Störquellen (wie Heizungen oder Ventilatoren) umgeben sein. Des Weiteren wird empfohlen, den Sensor nicht in der Nähe von Türen oder Fenstern zu positionieren, da es in dem Bereich zu einer erhöhten Luftströmung kommen kann, die die CO2-Konzentration der Luft beeinflussen kann.
+      - question: Muss ich den Sensor regelmäßig kalibrieren?
+        answer: |
+          Der Sensor, welcher im COMo - Projekt eingesetzt wird, verfügt über eine automatische Kalibration, die verhindert, dass die Messwerte mit der Zeit “weglaufen”. Damit diese automatische Kalibration funktioniert, sollte der Sensor zwischen einer halben Stunde und einer Stunde die Woche mit Frischluft versorgt werden. In den meisten öffentlich zugänglichen Räumen ist dies gewährleistet während einer Zeit ohne Publikumsverkehr.
+      - question: Können die Sensoren optisch den eigenen Räumlichkeiten angepasst werden?
+        answer: |
+          Damit der Sensor unauffällig bleibt und optisch in den eigenen Räumlichkeiten nicht auffällt, fragen uns viele Betreiber:innen, ob es möglich ist, den Sensor zu bemalen oder zu lackieren, damit er optimal an den eigenen Standort angepasst werden kann. Solche Veränderungen sind grundsätzlich möglich, sollten jedoch individuell abgestimmt werden, damit keine Beeinträchtigung der Datenerhebung entstehen kann.
+  - title: Technische Fragen
+    questions:
+      - question: Was ist das LoRaWAN?
+        answer: |
+          LoRaWAN ist ein stromeffizientes Netzwerkprotokoll, welches es den Nutzer:innen ermöglicht, drahtlos batteriebetriebene Geräte auch über weite Strecken mit dem Internet zu verbinden. 
+          Je nach Netzabdeckung des eigenen Standortes können mehr oder weniger Messdaten übermittelt werden. LoRaWAN hat dabei die Vorgabe, dass jedes Gerät 30 Sekunden Airtime (Zeit in der das Gerät Informationen senden kann) pro Tag zur Verfügung hat. Eine schlechte Netzabdeckung kann mit Hilfe von Gateways verbessert werden.
+      - question: Wofür steht die Abkürzung TTN?
+        answer: |
+          TTN steht für “The Things Network” und bezeichnet eine offene und community basierte Initiative, die eine Reihe an Open Source LoRaWAN - Lösungen entwickeln. Ihr Ziel ist es, Internet of Things (IoT) Anwendungen zu erstellen und ein kollaboratives Internet der Dinge-Netzwerk aufzubauen, das sich über viele Länder in der ganzen Welt erstreckt.
+      - question: Was ist ein Gateway?
+        answer: |
+          Als Gateway bezeichnet man eine Soft- oder Hardwarekomponente, die eine Verbindung zwischen zwei unterschiedlichen Systemen herstellt. Gateways übernehmen also die Rolle eines Vermittlers. In unserem Fall werden die Daten des Sensors in einem ersten Schritt an ein Gateway gesendet und in einem zweiten Schritt sendet dann das Gateway diese über das Internet an die COMo-Plattform.
   - title: Datenschutz
     questions:
-      - question: Lorem Ipsum 3
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
-      - question: Lorem Ipsum 4
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
-  - title: Themenbereich Technik
-    questions:
-      - question: Lorem Ipsum 5
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
-      - question: Lorem Ipsum 6
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
-  - title: Wissenschaftliche Fragen
-    questions:
-      - question: Lorem Ipsum 7
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
-      - question: Lorem Ipsum 8
-        answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Amet cursus sit amet dictum sit amet justo. Aliquam faucibus purus in massa tempor nec feugiat nisl. Nunc lobortis mattis aliquam faucibus. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Cursus in hac habitasse platea dictumst quisque sagittis. Eget nunc scelerisque viverra mauris in aliquam. Auctor elit sed vulputate mi sit amet mauris commodo. Ut lectus arcu bibendum at. Nunc non blandit massa enim nec dui nunc. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper quis lectus. Quis ipsum suspendisse ultrices gravida dictum.
+      - question: Welche Daten werden erhoben?
+        answer: |
+          Wir als Macher:innen von COMo benötigen im Projekt keine persönlichen Daten, sondern nur ohnehin zugängliche Daten von Institutionen, wie Postadresse, öffentliche Mailadresse oder Social Media - Handles sowie die Messwerte der dort installierten Sensoren. Für unsere Messungen erheben und speichern wir lediglich den Standort des Sensors sowie die Daten, die der Sensor liefert. Alle Fragen zu Speicherung, Veröffentlichung und Nutzung der Sensordaten werden in einer Nutzungsvereinbarung näher erläutert und vor Beginn des Betriebs mit unseren Partner:innen vereinbart.
+      - question: Was passiert mit meinen Daten?
+        answer: |
+          Da wir im COMo - Projekt Daten unserer Partner (der Nutzer:innen) erfassen, haben wir einen Rechtsanwalt zur Vereinbarkeit unseres Projekts mit den Grundsätzen der DSGVO befragt. Denn wo Daten erfasst werden, muss dies transparent erfolgen und geprüft werden, ob die Erfassung und Speicherung im Sinne des jeweiligen Projekts notwendig sind. Ziel des COMo - Projekts ist es, die Sensordaten von öffentlich zugänglichen Orten zu erfassen und in verständlicher Weise visuell darzustellen, um die Besucher:innen der jeweiligen Institution bei ihrer Entscheidungsfindung zu unterstützen. Büros ohne Besucherverkehr oder in denen stets nur einzelne Personen arbeiten, sind daher von der Teilnahme am Projekt ausgeschlossen.
+      - question: Wohin werden meine Daten übertragen und werden meine Daten gespeichert?
+        answer: |
+          Die Messdaten werden zunächst auf ein LoRaWAN - Gateway übertragen (vergleichbar mit einer Mobilfunkzelle), welches sie über eine normale Internetverbindung verschlüsselt auf einen Server in den Niederlanden überträgt. Dort sitzen die Entwickler der genutzten LoRaWAN - Funktechnologie, [The Things Network](https://www.thethingsnetwork.org/). Die Gateways sind über die Stadt verteilt und ihre Standorte haben keinen Bezug zum Einsatzort eines CO2 - Sensors. Jeder Sensor hat aber eine individuelle Kennung, sodass wir als Betreiber:innen wissen, welcher Sensor bei den jeweiligen Nutzer:innen installiert ist. Damit wissen wir aber auch nur den Standort – und den haben uns die Nutzer:innen bereits vorab mit ihrer Registrierung mitgeteilt. Gespeichert werden die Daten wiederum verschlüsselt auf einem Server in Deutschland. Dort haben nur wir als Macher:innen von COMo - Zugriff.
+      - question: Wie lange werden meine Daten gespeichert?
+        answer: |
+          Da alle Daten in Europa gespeichert werden, gelten überall die vergleichsweise strengen Regeln der DSGVO, die besagen, dass personenbezogene Daten nur so lange gespeichert werden dürfen, wie dies für die verfolgten Zwecke erforderlich ist. Werden die Daten nicht mehr benötigt, sind diese zu löschen. 
+
+          Die Daten liegen aktuell, während der Testphase des Projektes, auf einem Server, den wir privat bei einem Rechenzentrum in Deutschland angemietet haben. Für den Produktbetrieb suchen wir noch nach finanzieller Unterstützung, um die COMo Plattform inklusive der Datenbank gemäss Datenschutz-Grundverordnung in einem Rechenzentrum in der EU zu betreiben.
