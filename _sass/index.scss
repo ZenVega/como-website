@@ -29,9 +29,8 @@
 }
 
 #hero-content {
-    background: rgba(230, 230, 230, 0.9);
+    background-color: #e7e8e8;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
-    backdrop-filter: blur(80px);
     position: relative;
     z-index: 2;
     left: 0;
@@ -46,7 +45,7 @@
 
 @include media-breakpoint-up(lg) {
     #hero-content {
-        top: -40px;
+        top: -52px;
         width: 65%;
         height: 624px;
         margin: 0;
