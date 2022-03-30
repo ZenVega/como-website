@@ -21,7 +21,7 @@
                 <div class="container px-0">
                     <div class="row mx-0">
                         {% for item in site.data.sitemap %}
-                        <div class="col-6 px-0">
+                        <div class="col-6 px-0 touch-target">
                             <a class="sitemap-item" href="{{ item.href }}">{{ item.text }}</a>
                         </div>
                         {% endfor %}
