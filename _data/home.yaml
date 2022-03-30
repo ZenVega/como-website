@@ -1,7 +1,7 @@
 hero:
   header: Lerne deine Raumluft kennen.
   subheader: Für mehr saubere Luft in Berliner Innenräumen.
-  p1: Keine Lust auf dicke Luft? COMo sorgt mit der Hilfe von CO2 Sensoren für frischen Wind in deinen Räumlichkeiten - objektiv und datenbasiert!
+  p1: Keine Lust auf dicke Luft? COMo sorgt mit der Hilfe von CO<sub>2</sub> Sensoren für frischen Wind in deinen Räumlichkeiten - objektiv und datenbasiert!
   button:
     text: Jetzt bewerben
     href: registrieren.html
@@ -9,7 +9,7 @@ mitmachen:
   header: Mitstreiter:innen gesucht.
   subheader: Du betreibst einen öffentlichen Raum? Dann mach mit!
   p1: Unser Ziel ist es, gemeinsam mit Betreiber:innen von öffentlich zugänglichen Innenräumen aus allen möglichen Bereichen wie Bildung, Kultur, Gastronomie, Verwaltung, Gesundheit und Gewerbe die Qualität der Raumluft zu verbessern.
-  p2: Um dies zu ermöglichen, wird in deinen Räumlichkeiten ein spezieller CO2 Sensor installiert, der über Funk und dem nächstgelegenen Gateaway seine Messdaten ins Internet übermittelt. Dabei setzen wir auf die LoRaWan-Technik, welche es ermöglicht, dass der Sensor seine Daten möglichst uneingeschränkt über weite Distanzen übertragen kann.
+  p2: Um dies zu ermöglichen, wird in deinen Räumlichkeiten ein spezieller CO<sub>2</sub>-Sensor installiert, der über Funk und dem nächstgelegenen Gateaway seine Messdaten ins Internet übermittelt. Dabei setzen wir auf die LoRaWan-Technik, welche es ermöglicht, dass der Sensor seine Daten möglichst uneingeschränkt über weite Distanzen übertragen kann.
 aufbau:
   header: Sensoren machen’s möglich.
   subheader: Hinhängen und fertig.
