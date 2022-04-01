@@ -6,7 +6,7 @@
           Alle Betreiber:innen von öffentlich zugänglichen Innenräumen aus den Bereichen Bildung, Kultur, Verwaltung, Gastronomie, Gewerbe und Gesundheit in Berlin können beim COMo - Projekt mitmachen. Hast auch du Interesse? Dann melde dich bei uns über das Kontaktformular oder schicke eine E-Mail an unsere Ansprechpartner:innen. 
 
           Da wir vorerst nur eine begrenzte Anzahl von Sensoren zur Verfügung stellen können, müssen wir gegebenenfalls aus der Gesamtheit der Anmeldungen auswählen. Wir bitten dafür um Verständnis.
-      - question: Warum sollte die CO2-Konzentration in Innenräumen gemessen werden?
+      - question: Warum sollte die CO<sub>2</sub>-Konzentration in Innenräumen gemessen werden?
         answer: |
           Ein angepasstes Lüftungsmanagement verbessert das Wohlbefinden und die Lern- und Arbeitsproduktivität in Räumen. In der Heizperiode können durch das bedarfsgerechte Lüften zudem Heizkosten eingespart werden. 
 
@@ -16,7 +16,7 @@
           CO<sub>2</sub> < 1000 ppm -> „hygienisch unbedenklich“  
           1000 < CO<sub>2</sub> < 2000 ppm -> „hygienisch auffällig“  
           CO<sub>2</sub> > 2000 ppm -> „hygienisch inakzeptabel“
-      - question: Wie genau kann uns ein CO2-Sensor bei der Verbesserung der Luftqualität unterstützen?
+      - question: Wie genau kann uns ein CO<sub>2</sub>-Sensor bei der Verbesserung der Luftqualität unterstützen?
         answer: |
           Ein CO<sub>2</sub>-Sensor nimmt die Umgebungsluft auf und bestimmt den Anteil an CO<sub>2</sub>-Molekülen, typischerweise in der Einheit ppm, Parts per Million (Anzahl pro Million). Vernetzte CO<sub>2</sub>-Sensoren sind kommerziell erhältlich und sind etwa so groß wie ein Rauchmelder. Sie verfügen über einen Netzwerkanschluss, sodass sie die Messdaten über das Internet an einen Server schicken können - wie die COMo - Plattform. Wir nutzen also den Sensor als Hilfsmittel zur Messung von CO<sub>2</sub>-Werten und anschliessend zur Übertragung der Daten über das LoRaWAN - Netzwerk. Durch die Aufarbeitung und Visualisierung der Daten können wir danach Aussagen über die Luftqualität herleiten und dich beim bedarfsgerechten Lüften unterstützen.
 
