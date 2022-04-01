@@ -1,1 +1,4 @@
 title: "COMo"
+exclude:
+  - README.md
+  - LICENSE.txt
