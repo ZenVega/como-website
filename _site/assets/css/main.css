@@ -2475,6 +2475,10 @@ main { margin-top: 100px; }
 
 h2, .h2 { color: #1e398f; font-family: "ClanPro", sans-serif; font-weight: bold; font-size: 28px; line-height: 40px; margin: 0; }
 
+h3, .h3 { color: #1e398f; font-family: "ClanPro", sans-serif; font-weight: bold; font-size: 24px; line-height: 56px; margin: 32px 0 0 0; }
+
+h4, .h4 { color: #1e398f; font-family: "ClanPro", sans-serif; font-weight: bold; font-size: 20px; line-height: 40px; margin: 0; }
+
 .subheader { color: #1e398f; font-weight: normal; font-size: 18px; margin-bottom: 26px; line-height: 32px; }
 
 @media (min-width: 992px) { .nav-link { font-size: 14px; } #navbarOffcanvasLg { flex-direction: row; } h2, .h2 { font-size: 48px; line-height: 56px; } .subheader { font-size: 24px; line-height: 32px; } }
