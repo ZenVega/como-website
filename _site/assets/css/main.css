@@ -2521,6 +2521,8 @@ h2, .h2 { color: #1e398f; font-family: "ClanPro", sans-serif; font-weight: bold;
 
 .row-member { margin-top: 72px; }
 
+main p a, .body-link, .accordion-body a { font-weight: 700; color: #1E398F; }
+
 .h3-faq { margin-top: 122px; font-family: "ClanPro"; font-style: normal; font-weight: bold; font-size: 24px; line-height: 56px; color: #1e398f; }
 
 .accordion-item { border: none; border-bottom: 1px solid #ececed; }
