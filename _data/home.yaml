@@ -17,7 +17,7 @@ aufbau:
   p2: Die Sensoren können dank der LoRaWan-Technik komplett selbstständig Messdaten erfassen und übermitteln. Über unser Webportal kannst du dann als Betreiber:in deine Daten nicht nur jederzeit abrufen, sondern auch direkt sichtbar machen.
 ueber:
   header: Über uns
-  p1: Das Projekt CoMo ist aus der Clair Berlin Initiative entstanden. In Abstimmung mit der Technologiestiftung Berlin und der Hochschule für Technik und Wirtschaft Berlin (HTW) wurde Clair Berlin mit Förderung der Senatskanzlei Berlin in das Pilotprojekt COMo überführt.
+  p1: Das Projekt COMo ist aus der Clair Berlin Initiative entstanden. In Abstimmung mit der Technologiestiftung Berlin und der Hochschule für Technik und Wirtschaft Berlin (HTW) wurde Clair Berlin mit Förderung der Senatskanzlei Berlin in das Pilotprojekt COMo überführt.
   p2: Das LoRaWan-Netzwerk in Berlin wird zu großen Teilen von den Freiwilligen der The Things Network Community Berlin (TTN Berlin) betrieben, ohne diese wären solche Projekte nicht möglich.
   members:
     - logo: TSB_Logo_DE_H_P_RGB.png
