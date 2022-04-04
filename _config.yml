@@ -1,1 +1,5 @@
 title: "COMo"
+exclude:
+  - Dockerfile
+  - README.md
+  - LICENSE.txt
