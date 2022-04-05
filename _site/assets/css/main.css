@@ -2531,9 +2531,9 @@ main p a, .body-link, .accordion-body a { font-weight: 700; color: #1E398F; }
 
 .accordion-item { border: none; border-bottom: 1px solid #ececed; }
 
-.accordion-button { padding: 16px 20px 16px 0; font-family: "ClanPro"; font-style: normal; font-weight: bold; font-size: 16px; line-height: 32px; color: #3b3b3a; display: block; }
+.accordion-button { padding: 16px 20px 16px 0; }
 
-.accordion-button sub { font-weight: bold; }
+.faq-question, .faq-question sub { font-family: "ClanPro"; font-style: normal; font-weight: bold; font-size: 16px; line-height: 32px; color: #3b3b3a; }
 
 .accordion-body { padding: 16px 0; font-weight: normal; line-height: 32px; }
 
