@@ -26,7 +26,9 @@ title: FAQ
                     <h2 class="accordion-header" id="h2-{{ question_id }}">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#{{ question_id }}" aria-controls="{{ question_id }}">
-                            {{ faq.question }}
+                            <div class="faq-question">
+                                {{ faq.question }}
+                            </div>
                         </button>
                     </h2>
                     <div id="{{ question_id }}" class="accordion-collapse collapse"
@@ -43,7 +45,7 @@ title: FAQ
             <div>
                 Das FAQ konnte dir nicht weiterhelfen oder du hast eine
                 komplexere Anfrage? Dann schreib uns eine E-Mail an
-                <a href="mailto:info@como-berlin.de">info@como-berlin.de</a>.
+                <a class="body-link" href="mailto:info@como-berlin.de">info@como-berlin.de</a>.
             </div>
         </div>
     </div>

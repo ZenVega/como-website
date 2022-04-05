@@ -9,7 +9,7 @@ mitmachen:
   header: Mitstreiter:innen gesucht.
   subheader: Du betreibst einen öffentlichen Raum? Dann mach mit!
   p1: Unser Ziel ist es, gemeinsam mit Betreiber:innen von öffentlich zugänglichen Innenräumen aus allen möglichen Bereichen wie Bildung, Kultur, Gastronomie, Verwaltung, Gesundheit und Gewerbe die Qualität der Raumluft zu verbessern.
-  p2: Um dies zu ermöglichen, wird in deinen Räumlichkeiten ein spezieller CO<sub>2</sub>-Sensor installiert, der über Funk und dem nächstgelegenen Gateaway seine Messdaten ins Internet übermittelt. Dabei setzen wir auf die LoRaWan-Technik, welche es ermöglicht, dass der Sensor seine Daten möglichst uneingeschränkt über weite Distanzen übertragen kann.
+  p2: Um dies zu ermöglichen, wird in deinen Räumlichkeiten ein spezieller CO<sub>2</sub>-Sensor installiert, der über Funk und dem nächstgelegenen Gateaway seine Messdaten ins Internet übermittelt. Dabei setzen wir auf die [LoRaWAN](faq.html#h2-was-ist-das-lorawan)-Technik, welche es ermöglicht, dass der Sensor seine Daten möglichst uneingeschränkt über weite Distanzen übertragen kann.
 aufbau:
   header: Sensoren machen’s möglich.
   subheader: Hinhängen und fertig.
@@ -17,7 +17,7 @@ aufbau:
   p2: Die Sensoren können dank der LoRaWan-Technik komplett selbstständig Messdaten erfassen und übermitteln. Über unser Webportal kannst du dann als Betreiber:in deine Daten nicht nur jederzeit abrufen, sondern auch direkt sichtbar machen.
 ueber:
   header: Über uns
-  p1: Das Projekt CoMo ist aus der Clair Berlin Initiative entstanden. In Abstimmung mit der Technologiestiftung Berlin und der Hochschule für Technik und Wirtschaft Berlin (HTW) wurde Clair Berlin mit Förderung der Senatskanzlei Berlin in das Pilotprojekt COMo überführt.
+  p1: Das Projekt COMo ist aus der Clair Berlin Initiative entstanden. In Abstimmung mit der Technologiestiftung Berlin und der Hochschule für Technik und Wirtschaft Berlin (HTW) wurde Clair Berlin mit Förderung der Senatskanzlei Berlin in das Pilotprojekt COMo überführt.
   p2: Das LoRaWan-Netzwerk in Berlin wird zu großen Teilen von den Freiwilligen der The Things Network Community Berlin (TTN Berlin) betrieben, ohne diese wären solche Projekte nicht möglich.
   members:
     - logo: TSB_Logo_DE_H_P_RGB.png
