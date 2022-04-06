@@ -100,7 +100,7 @@ title: Home
             <img class="pb-3 pb-lg-0" src="assets/img/{{ member.logo }}" width="{{ member.width }}">
         </div>
         <div class="col-12 col-lg-5">
-            {{ member.text }}
+            {{ member.text | markdownify}}
         </div>
     </div>
     {% endfor %}
