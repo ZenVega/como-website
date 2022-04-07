@@ -86,12 +86,12 @@ title: Home
     </div>
     <div class="row">
         <div class="col-12 col-lg-8 offset-lg-2">
-            {{ site.data.home.ueber.p1 }}
+            {{ site.data.home.ueber.p1 | markdownify }}
         </div>
     </div>
     <div class="row">
         <div class="col-12 col-lg-8 offset-lg-2">
-            {{ site.data.home.ueber.p2 }}
+            {{ site.data.home.ueber.p2 | markdownify }}
         </div>
     </div>
     {% for member in site.data.home.ueber.members %}
