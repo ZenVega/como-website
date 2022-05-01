@@ -106,11 +106,10 @@ title: Home
       {{ site.data.home.orte.p2 | markdownify }}
     </div>
   </div>
-
-  <div class="d-flex justify-content-center gap-4 margin mt-4">
-    <div>
+  <div class="widget-section">
+    <div class="site-card-container">
       {% for site in site.data.sites %}
-      <div class="site-card">
+      <div class="site-card" data-site-id="{{site.id}}">
         <div class="site-logo">
           <img
             class=""
