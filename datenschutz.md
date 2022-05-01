@@ -12,7 +12,7 @@ title: Datenschutz
 Diese Datenschutzerklärung soll dich über Art, Umfang und Zweck der von der Technologiestiftung Berlin im COMo-Projekt erhobenen, genutzten und verarbeiteten Daten sowie deine Rechte in Bezug auf Datenschutz informieren.
 
 Personenbezogene Daten im Sinne der Datenschutz-Grundverordnung  (DSGVO - Verordnung (EU) 2016/679) sind alle Informationen, anhand derer eine Person eindeutig identifizierbar ist. Die Technologiestiftung Berlin ist sich der Verantwortung für den Schutz personenbezogener Daten bewusst und hat im Zuge der Anwendung der DSGVO ab dem 25. Mai 2018 Maßnahmen umgesetzt, um den Schutz deiner Daten und deiner Privatsphäre zu gewährleisten und eine Nutzung nach einer Abwägung der Eigeninteressen zu minimieren.
-
+<br><br>
 #### Verantwortliche
 
 Die Verantwortliche im Sinne der DSGVO, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die Technologiestiftung Berlin.
@@ -34,17 +34,17 @@ Grunewaldstraße 61-62
 Deutschland  
 Tel.: 030 20 96 99 951  
 E-Mail: <datenschutz@ts.berlin>
-
+<br><br>
 #### Allgemeine Zweckbestimmung der Datenerhebung, -verarbeitung und -nutzung
 
 Über die COMo-Website werden keine personenbezogenen Daten erhoben.
-
+<br><br>
 ### Relevante Dienste
 
 #### Websites
 
 Die Internetpräsenz von COMo ist grundsätzlich ohne jede Angabe deiner personenbezogenen Daten frei nutzbar.
-
+<br><br>
 #### Cookies
 
 Cookies sind Daten, die auf Ihrem Datenträger beim Besuch von Websites gespeichert werden und im Austausch mit unserer Website bestimmte Daten und Einstellungen speichern.
@@ -52,11 +52,11 @@ Cookies sind Daten, die auf Ihrem Datenträger beim Besuch von Websites gespeich
 Für die Nutzung der Website benutzten wir ein technisches Cookie zur Speicherung der Sprachauswahl für die aktuelle Sitzung. Außerdem wird die zuletzt ausgewählten Organisation in deinem Account gespeichert.
 
 Einen Hinweis zu den Cookies erhältst du beim erstmaligen Aufruf der Website.
-
+<br><br>
 ### Einbindung von Diensten und Inhalten Dritter
 
 Zum aktuellen Zeitpunkt (Stand 29. März 2022) setzen wir folgende Plugins für bestimmte Zwecke ein:
-
+<br><br>
 #### Kontaktformular Typeform für die Anfrage der Sensorinstallation
 
 Für die erste Kontaktaufnahme bei Interesse, einen COMo-CO2-Sensor zu installieren, setzen wir den Dienst Typeform ein, ein Angebot der Typeform S.L., Carrer Bac de Roda, 163, 08018 Barcelona.
