@@ -2525,7 +2525,23 @@ h4, .h4 { color: #1e398f; font-family: "ClanPro", sans-serif; font-weight: bold;
 
 .row-member { margin-top: 72px; }
 
-.site-card { display: flex; width: 224px; padding: 20px 21px; margin-bottom: 12px; background: #ffffff; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 0px 16px rgba(0, 0, 0, 0.08); border-radius: 8px; }
+.widget-section { display: flex; flex-direction: row; gap: 16px; justify-content: center; margin-top: 16px; }
+
+@media (max-width: 768px) { .widget-section { gap: 24px; flex-direction: column; } }
+
+.site-card-container { display: flex; flex-direction: column; gap: 12px; }
+
+@media (max-width: 768px) { .site-card-container { flex-direction: row; gap: 20px; overflow: scroll; } }
+
+.site-card { display: flex; min-width: 224px; width: 224px; padding: 20px 21px; cursor: pointer; background: #ffffff; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 0px 16px rgba(0, 0, 0, 0.08); border-radius: 8px; }
+
+.site-card.active { background-color: #1e398f; }
+
+.site-card.active .site-name { color: #ffffff; }
+
+.site-card.active .site-sensors { color: #dadada; }
+
+.site-card.active .site-logo { filter: grayscale(100%) invert(1) brightness(200%); }
 
 .site-logo { margin-right: 24px; }
 
@@ -2533,7 +2549,9 @@ h4, .h4 { color: #1e398f; font-family: "ClanPro", sans-serif; font-weight: bold;
 
 .site-sensors { font-weight: 500; font-size: 12px; line-height: 16px; letter-spacing: 0.01em; color: #626aaf; }
 
-.widget { background: #ffffff; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 0px 16px rgba(0, 0, 0, 0.08); border-radius: 8px; height: 100%; overflow: hidden; }
+.widget { display: flex; max-width: 359px; background: #ffffff; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 0px 16px rgba(0, 0, 0, 0.08); border-radius: 8px; height: 100%; overflow: hidden; }
+
+@media (max-width: 768px) { .widget { margin: 0 auto; } }
 
 main p a, .body-link, .accordion-body a { font-weight: 700; color: #1e398f; }
 
