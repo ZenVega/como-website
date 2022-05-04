@@ -1,34 +1,34 @@
 - name: dEIn Labor
   svg: dein.svg
   sensors: 2 Sensoren
-  id: 1
+  id: 25
 
 - name: noisy rooms
   svg: noisy.svg
   sensors: 3 Sensoren
-  id: 1
+  id: 26
 
 - name: Zeiss Groß-planetarium
   svg: zeiss.svg
   sensors: 6 Sensoren
-  id: 1
+  id: 36
 
 - name: Origin Co-Working
   svg: origin.svg
   sensors: 1 Sensor
-  id: 1
+  id: 10
 
 - name: SchwuZ
   svg: schwuz.svg
   sensors: 2 Sensoren
-  id: 1
+  id: 37
 
 - name: CityLab
   svg: citylab.svg
   sensors: 2 Sensoren
-  id: 1
+  id: 11
 
 - name: Schloss Biesdorf
   svg: biesdorf.svg
   sensors: 1 Sensor
-  id: 1
+  id: 31

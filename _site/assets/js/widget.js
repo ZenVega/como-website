@@ -8,6 +8,6 @@ widgetCards.forEach((card) => {
   card.onclick = () => {
     widgetCards.forEach((c) => c.classList.remove("active"));
     card.classList.add("active");
-    widget.children[0].src = `http://localhost:3002/embed/${card.dataset.siteId}`;
+    widget.children[0].src = `https://como-berlin.de/embed/${card.dataset.siteId}/`;
   };
 });
