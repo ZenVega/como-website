@@ -8,10 +8,10 @@
   sensors: 3 Sensoren
   id: 26
 
-- name: Zeiss Groß-planetarium
-  svg: zeiss.svg
-  sensors: 6 Sensoren
-  id: 36
+# - name: Zeiss Groß-planetarium
+#   svg: zeiss.svg
+#   sensors: 6 Sensoren
+#   id: 36
 
 - name: Origin Co-Working
   svg: origin.svg
