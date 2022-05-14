@@ -25,7 +25,7 @@
 
 - name: CityLab
   svg: citylab.svg
-  sensors: 2 Sensoren
+  sensors: 3 Sensoren
   id: 11
 
 - name: Schloss Biesdorf
