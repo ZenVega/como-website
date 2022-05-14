@@ -2,106 +2,166 @@
 layout: default
 title: Home
 ---
+
 <div id="home"></div>
 
 <div class="container-xl p-0">
-    <div id="hero-background"></div>
-    <div id="hero-content">
-        <h2>{{ site.data.home.hero.header }}</h2>
-        <div class="subheader">
-            {{ site.data.home.hero.subheader }}
-        </div>
-        <div class="row">
-            <div class="col">
-                {{ site.data.home.hero.p1 }}
-            </div>
-        </div>
-        <a class="btn btn-primary" href="https://form.typeform.com/to/nHVXsVmP">
-            {{ site.data.home.hero.button.text }}
-        </a>
+  <div id="hero-background"></div>
+  <div id="hero-content">
+    <h2>{{ site.data.home.hero.header }}</h2>
+    <div class="subheader">{{ site.data.home.hero.subheader }}</div>
+    <div class="row">
+      <div class="col">{{ site.data.home.hero.p1 }}</div>
     </div>
+    <a class="btn btn-primary" href="https://form.typeform.com/to/nHVXsVmP">
+      {{ site.data.home.hero.button.text }}
+    </a>
+  </div>
 </div>
 
 <div id="container-mitmachen" class="container container-section">
-    <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            <h2 id="mitmachen">{{ site.data.home.mitmachen.header }}</h2>
-            <div class="subheader">
-                {{ site.data.home.mitmachen.subheader }}
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <h2 id="mitmachen">{{ site.data.home.mitmachen.header }}</h2>
+      <div class="subheader">{{ site.data.home.mitmachen.subheader }}</div>
     </div>
-    <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            {{ site.data.home.mitmachen.p1 | markdownify }}
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      {{ site.data.home.mitmachen.p1 | markdownify }}
     </div>
-    <div class="d-flex justify-content-center align-items-center">
-        <img class="img-fluid img-info d-none d-sm-block" src="assets/img/schematischer-ablauf.png" width="743"
-            alt="Schematischer Ablauf">
-        <img id="schematischer-ablauf-vertikal" class="img-fluid img-info d-block d-sm-none"
-            src="assets/img/schematischer-ablauf-vertikal.png" width="196" alt="Schematischer Ablauf">
+  </div>
+  <div class="d-flex justify-content-center align-items-center">
+    <img
+      class="img-fluid img-info d-none d-sm-block"
+      src="assets/img/schematischer-ablauf.png"
+      width="743"
+      alt="Schematischer Ablauf"
+    />
+    <img
+      id="schematischer-ablauf-vertikal"
+      class="img-fluid img-info d-block d-sm-none"
+      src="assets/img/schematischer-ablauf-vertikal.png"
+      width="196"
+      alt="Schematischer Ablauf"
+    />
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      {{ site.data.home.mitmachen.p2 | markdownify }}
     </div>
-    <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            {{ site.data.home.mitmachen.p2 | markdownify }}
-        </div>
-    </div>
+  </div>
 </div>
 
 <div id="container-aufbau" class="container-fluid">
-    <div class="container container-section">
-        <div class="row">
-            <div class="col-12 col-lg-8 offset-lg-2">
-                <h2>{{ site.data.home.aufbau.header }}</h2>
-                <div class="subheader">
-                    {{ site.data.home.aufbau.subheader }}
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-8 offset-lg-2">
-                {{ site.data.home.aufbau.p1 | markdownify }}
-            </div>
-        </div>
-        <div class="d-flex justify-content-center align-items-center">
-            <img class="img-fluid img-info d-none d-sm-block" src="assets/img/infografik-aufbau.png" width="743"
-                alt="Schematischer Ablauf">
-            <img id="infografik-aufbau-vertikal" class="img-fluid img-info d-block d-sm-none"
-                src="assets/img/infografik-aufbau-vertikal.png" width="174" alt="Schematischer Ablauf">
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-8 offset-lg-2">
-                {{ site.data.home.aufbau.p2 | markdownify }}
-            </div>
-        </div>
+  <div class="container container-section">
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <h2>{{ site.data.home.aufbau.header }}</h2>
+        <div class="subheader">{{ site.data.home.aufbau.subheader }}</div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        {{ site.data.home.aufbau.p1 | markdownify }}
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+      <img
+        class="img-fluid img-info d-none d-sm-block"
+        src="assets/img/infografik-aufbau.png"
+        width="743"
+        alt="Schematischer Ablauf"
+      />
+      <img
+        id="infografik-aufbau-vertikal"
+        class="img-fluid img-info d-block d-sm-none"
+        src="assets/img/infografik-aufbau-vertikal.png"
+        width="174"
+        alt="Schematischer Ablauf"
+      />
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        {{ site.data.home.aufbau.p2 | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="container-orte" class="container container-section">
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <h2 id="ueber-uns">{{ site.data.home.orte.header }}</h2>
+      <div class="subheader">{{ site.data.home.orte.subheader }}</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      {{ site.data.home.orte.p1 | markdownify }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      {{ site.data.home.orte.p2 | markdownify }}
+    </div>
+  </div>
+  <div class="widget-section">
+    <div class="site-card-container">
+      {% for site in site.data.sites %}
+      <div class="site-card" data-site-id="{{site.id}}">
+        <div class="site-logo">
+          <img
+            class=""
+            src="assets/img/sites/{{ site.svg }}"
+            width="36px"
+            height="36px"
+          />
+        </div>
+        <div class="">
+          <div class="site-name">{{ site.name }}</div>
+          <div class="site-sensors">{{ site.sensors }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="widget">
+      <iframe
+        class=""
+        src="https://como-berlin.de/embed/{{site.data.sites[0].id}}/"
+        width="359px"
+        height="620px"
+      ></iframe>
+    </div>
+  </div>
 </div>
 
 <div id="container-ueber" class="container container-section">
-    <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            <h2 id="ueber-uns">{{ site.data.home.ueber.header }}</h2>
-        </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <h2 id="ueber-uns">{{ site.data.home.ueber.header }}</h2>
     </div>
-    <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            {{ site.data.home.ueber.p1 | markdownify }}
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      {{ site.data.home.ueber.p1 | markdownify }}
     </div>
-    <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            {{ site.data.home.ueber.p2 | markdownify }}
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      {{ site.data.home.ueber.p2 | markdownify }}
     </div>
-    {% for member in site.data.home.ueber.members %}
-    <div class="row row-member">
-        <div class="col-12 col-lg-3 offset-lg-2">
-            <img class="pb-3 pb-lg-0" src="assets/img/{{ member.logo }}" width="{{ member.width }}">
-        </div>
-        <div class="col-12 col-lg-5">
-            {{ member.text | markdownify }}
-        </div>
+  </div>
+  {% for member in site.data.home.ueber.members %}
+  <div class="row row-member">
+    <div class="col-12 col-lg-3 offset-lg-2">
+      <img
+        class="pb-3 pb-lg-0"
+        src="assets/img/{{ member.logo }}"
+        width="{{ member.width }}"
+      />
     </div>
-    {% endfor %}
+    <div class="col-12 col-lg-5">{{ member.text | markdownify }}</div>
+  </div>
+  {% endfor %}
 </div>
