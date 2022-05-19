@@ -16,10 +16,9 @@ aufbau:
   p1: Unsere [Sensoren](faq.html#h2-welcher-sensor-kommt-zum-einsatz) werden dir kostenlos und bereits einsatzfähig zugestellt. Alles was du machen musst, ist einen geeigneten [Platz](faq.html#h2-wie-sollte-der-sensor-am-besten-platziert-werden) für deinen Sensor zu finden und ihn dort aufzuhängen.
   p2: Die Sensoren können dank der LoRaWan-Technik komplett selbstständig Messdaten erfassen und übermitteln. Über unser Webportal kannst du dann als Betreiber:in deine Daten nicht nur jederzeit abrufen, sondern auch direkt [sichtbar](faq.html#h2-warum-sollte-die-co-sub-2-sub-konzentration-in-innenräumen-gemessen-werden) machen.
 orte:
-  header: Frische Orte
-  subheader: Schaue dir Beispiele erfolgreicher Betreiber:innen an!
-  p1: Bereits 30 Betreiber:innen machen mit. Hier kannst Du dir ansehen, wie es aussieht, wenn man beim COMO Projekt mitmacht.
-  p2: Viel Spass beim Stöbern durch die Daten unserer Teilnehmer:innen.
+  header: Berlins frischeste Orte - Sensor geprüft!
+  subheader: Wirf einen Blick auf die Daten unserer Teilnehmer:innen!
+  p1: In vielen Berliner Innenräumen weht dank unserer Sensoren bereits eine frische Brise. Hier erhältst du einen genauen Einblick in die erhobenen Daten sowie Informationen, was für Aussagen im Hinblick auf eine gute Raumluft getroffen werden können.
 ueber:
   header: Über uns
   p1: Das Projekt COMo ist aus der Clair Berlin Initiative entstanden. In Abstimmung mit der Technologiestiftung Berlin und der Hochschule für Technik und Wirtschaft Berlin (HTW) wurde Clair Berlin mit Förderung der Senatskanzlei Berlin in das Pilotprojekt COMo überführt.
