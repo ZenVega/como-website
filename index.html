@@ -19,6 +19,48 @@ title: Home
   </div>
 </div>
 
+<div id="container-orte" class="container container-section">
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <h2 id="frische-orte">{{ site.data.home.orte.header }}</h2>
+      <div class="subheader">{{ site.data.home.orte.subheader }}</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      {{ site.data.home.orte.p1 | markdownify }}
+    </div>
+  </div>
+  <div class="widget-section">
+    <div class="site-card-container">
+      {% for site in site.data.sites %}
+      <div class="site-card" data-site-id="{{site.id}}">
+        <div class="site-logo">
+          <img
+            class=""
+            src="assets/img/sites/{{ site.svg }}"
+            width="36px"
+            height="36px"
+          />
+        </div>
+        <div class="">
+          <div class="site-name">{{ site.name }}</div>
+          <div class="site-sensors">{{ site.sensors }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="widget">
+      <iframe
+        class=""
+        src="https://como-berlin.de/embed/{{site.data.sites[0].id}}/"
+        width="359px"
+        height="620px"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
 <div id="container-mitmachen" class="container container-section">
   <div class="row">
     <div class="col-12 col-lg-8 offset-lg-2">
@@ -85,53 +127,6 @@ title: Home
       <div class="col-12 col-lg-8 offset-lg-2">
         {{ site.data.home.aufbau.p2 | markdownify }}
       </div>
-    </div>
-  </div>
-</div>
-
-<div id="container-orte" class="container container-section">
-  <div class="row">
-    <div class="col-12 col-lg-8 offset-lg-2">
-      <h2 id="ueber-uns">{{ site.data.home.orte.header }}</h2>
-      <div class="subheader">{{ site.data.home.orte.subheader }}</div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 col-lg-8 offset-lg-2">
-      {{ site.data.home.orte.p1 | markdownify }}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 col-lg-8 offset-lg-2">
-      {{ site.data.home.orte.p2 | markdownify }}
-    </div>
-  </div>
-  <div class="widget-section">
-    <div class="site-card-container">
-      {% for site in site.data.sites %}
-      <div class="site-card" data-site-id="{{site.id}}">
-        <div class="site-logo">
-          <img
-            class=""
-            src="assets/img/sites/{{ site.svg }}"
-            width="36px"
-            height="36px"
-          />
-        </div>
-        <div class="">
-          <div class="site-name">{{ site.name }}</div>
-          <div class="site-sensors">{{ site.sensors }}</div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="widget">
-      <iframe
-        class=""
-        src="https://como-berlin.de/embed/{{site.data.sites[0].id}}/"
-        width="359px"
-        height="620px"
-      ></iframe>
     </div>
   </div>
 </div>
