@@ -2449,6 +2449,10 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 @font-face { font-display: swap; font-family: ClanPro; font-style: normal; font-weight: 800; src: local("ClanPro Bold"), url(https://www.technologiestiftung-berlin.de/assets/fonts/ClanPro-Bold.woff2) format("woff"); }
 
+.post h4, .post .h4 { margin-bottom: 35px; }
+
+.post .img-center { display: block; margin: 0 auto; width: 100%; max-width: 400px; }
+
 body { position: relative; }
 
 * { font-family: "ClanPro", sans-serif; color: #3b3b3a; font-weight: normal; line-height: 32px; }
