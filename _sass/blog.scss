@@ -32,6 +32,12 @@
         border-radius: 2px;
         margin: 42px 0 39px;
     }
+    
+    li:last-of-type {
+        .post-list-seperator {
+            display: none;
+        }
+    }
 }
 
 .post {
