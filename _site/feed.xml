@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-23T09:01:56+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">COMo</title><entry><title type="html">Pressemitteilung: Mit Luftmonitoring gegen Corona</title><link href="http://localhost:4000/presse/2021/12/08/como.html" rel="alternate" type="text/html" title="Pressemitteilung: Mit Luftmonitoring gegen Corona" /><published>2021-12-08T12:00:00+01:00</published><updated>2021-12-08T12:00:00+01:00</updated><id>http://localhost:4000/presse/2021/12/08/como</id><content type="html" xml:base="http://localhost:4000/presse/2021/12/08/como.html">&lt;h2 id=&quot;mit-luftmonitoring-gegen-corona&quot;&gt;Mit Luftmonitoring gegen Corona&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-23T09:13:50+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">COMo</title><entry><title type="html">Pressemitteilung: Mit Luftmonitoring gegen Corona</title><link href="http://localhost:4000/presse/2021/12/08/como.html" rel="alternate" type="text/html" title="Pressemitteilung: Mit Luftmonitoring gegen Corona" /><published>2021-12-08T12:00:00+01:00</published><updated>2021-12-08T12:00:00+01:00</updated><id>http://localhost:4000/presse/2021/12/08/como</id><content type="html" xml:base="http://localhost:4000/presse/2021/12/08/como.html">&lt;h2 id=&quot;mit-luftmonitoring-gegen-corona&quot;&gt;Mit Luftmonitoring gegen Corona&lt;/h2&gt;
 
 &lt;p&gt;Die &lt;a href=&quot;https://www.technologiestiftung-berlin.de/&quot;&gt;Technologiestiftung&lt;/a&gt; startet gemeinsam mit der &lt;a href=&quot;https://www.htw-berlin.de/&quot;&gt;Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)&lt;/a&gt; das Projekt COMo, zum CO2-Monitoring in öffentlich zugänglichen Räumen. Da die CO2-Luftwerte in geschlossenen Räumen auch Rückschlüsse auf die Belastung mit Corona-Viren erlauben, können mit dem Monitoring Risikosituationen frühzeitig erkannt und durch Lüften gebannt werden. Die Idee für das Projekt hatte die Initiative &lt;a href=&quot;https://clair-berlin.de&quot;&gt;Clair Berlin&lt;/a&gt;, die von den IT-Experten Ulrich Schuster und Jan Weil im Zuge der Corona-Pandemie gegründet wurde. Das Projekt COMo wird von der Berliner Senatskanzlei gefördert.&lt;/p&gt;
 
@@ -34,7 +34,7 @@
 
 &lt;p&gt;In unzähligen Stunden wurden Sensoren verteilt und installiert, Messdaten erhoben, gesammelt und anschließend analysiert. Die von diesen Messdaten generierten Informationen werden ab sofort übersichtlich in unserem neuen Widget dargestellt - für die Betreiber:innen, aber vor allem für die Besucher:innen und die ganze Berliner Stadtgesellschaft.&lt;/p&gt;
 
-&lt;h5 id=&quot;wie-funktioniert-das-widget-genau&quot;&gt;Wie funktioniert das Widget genau?&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Wie funktioniert das Widget genau?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Sobald der bei den Betreiber:innen installierte Sensor den CO2-Gehalt des Raumes gemessen hat, funkt er seine Messdaten über das Netzwerk LoRaWAN an die COMo-Plattform. Auf unserer Website werden anschließend im neuen Widget die zuletzt erhobenen Messdaten in Verbindung mit einem CO2-Richtwert für Luftqualität in Innenräumen sichtbar. An diesem CO2- Richtwert orientiert sich auch die Hochschule für Technik und Wirtschaft Berlin, die die wissenschaftliche Grundlage dieses Projekts geschaffen hat.&lt;/p&gt;
@@ -48,7 +48,7 @@
   &lt;p&gt;Veröffentlichen die Teilnehmenden die Daten ihrer Räumlichkeiten, kommunizieren sie den Besucher:innen, dass sie sich für eine gesunde Raumlufthygiene einsetzen und beteiligen sich daran, dass Bürger:innen aktiver in wissenschaftliche Forschungsprozesse eingebunden werden – ein Gewinn für das Gemeinwohl. Deshalb nennen wir unser Widget intern auch WINget ;)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;welche-informationen-werden-im-widget-angezeigt&quot;&gt;&lt;strong&gt;Welche Informationen werden im Widget angezeigt?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Welche Informationen werden im Widget angezeigt?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_Widget_1.png&quot; alt=&quot;Widget Messwerte&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
