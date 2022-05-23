@@ -44,14 +44,21 @@
 
     h1 {
         font-weight: 700;
-        font-size: 48px;
-        line-height: 56px;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 15px;
+        
+        @include media-breakpoint-up(md) {
+            font-size: 48px;
+            line-height: 56px;
+        }
     }
 
-    .img-center {
+    &-img-center {
         display: block;
-        margin: 0 auto;
+        margin: 40px auto;
         width: 100%;
         max-width: 400px;
     }
+    
 }
