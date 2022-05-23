@@ -1,4 +1,41 @@
+.post-list {
+    list-style: none;
+
+    .post-meta {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 9px;
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        color: $texy-color;
+        margin-bottom: 14px;
+    }
+
+    &-excerpt {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    .post-link {
+        font-weight: 700;
+    }
+
+    &-seperator {
+        height: 1px;
+        width: 100%;
+        background: #E3E3E3;
+        border-radius: 2px;
+        margin: 42px 0 39px;
+    }
+}
+
 .post {
+
     h1 {
         font-weight: 700;
         font-size: 36px;
