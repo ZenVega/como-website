@@ -1,10 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-24T17:28:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">COMo</title><entry><title type="html">Hurra Hurra Hurra, das neue Widget ist da!</title><link href="http://localhost:4000/presse/2021/05/31/como.html" rel="alternate" type="text/html" title="Hurra Hurra Hurra, das neue Widget ist da!" /><published>2021-05-31T13:00:00+02:00</published><updated>2021-05-31T13:00:00+02:00</updated><id>http://localhost:4000/presse/2021/05/31/como</id><content type="html" xml:base="http://localhost:4000/presse/2021/05/31/como.html">&lt;h1 id=&quot;hurra-hurra-hurra-das-neue-widget-ist-da&quot;&gt;&lt;strong class=&quot;post-title&quot;&gt;Hurra Hurra Hurra, das neue Widget ist da!&lt;/strong&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-23T10:30:17+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">COMo</title><entry><title type="html">Pressemitteilung: Mit Luftmonitoring gegen Corona</title><link href="http://localhost:4000/presse/2021/12/08/como.html" rel="alternate" type="text/html" title="Pressemitteilung: Mit Luftmonitoring gegen Corona" /><published>2021-12-08T12:00:00+01:00</published><updated>2021-12-08T12:00:00+01:00</updated><id>http://localhost:4000/presse/2021/12/08/como</id><content type="html" xml:base="http://localhost:4000/presse/2021/12/08/como.html">&lt;h2 id=&quot;mit-luftmonitoring-gegen-corona&quot;&gt;Mit Luftmonitoring gegen Corona&lt;/h2&gt;
+
+&lt;p&gt;Die &lt;a href=&quot;https://www.technologiestiftung-berlin.de/&quot;&gt;Technologiestiftung&lt;/a&gt; startet gemeinsam mit der &lt;a href=&quot;https://www.htw-berlin.de/&quot;&gt;Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)&lt;/a&gt; das Projekt COMo, zum CO2-Monitoring in öffentlich zugänglichen Räumen. Da die CO2-Luftwerte in geschlossenen Räumen auch Rückschlüsse auf die Belastung mit Corona-Viren erlauben, können mit dem Monitoring Risikosituationen frühzeitig erkannt und durch Lüften gebannt werden. Die Idee für das Projekt hatte die Initiative &lt;a href=&quot;https://clair-berlin.de&quot;&gt;Clair Berlin&lt;/a&gt;, die von den IT-Experten Ulrich Schuster und Jan Weil im Zuge der Corona-Pandemie gegründet wurde. Das Projekt COMo wird von der Berliner Senatskanzlei gefördert.&lt;/p&gt;
+
+&lt;p&gt;Dr. Frank Nägele, Staatssekretär für Verwaltungs- und Infrastrukturmodernisierung:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;„Das digitale Monitoring von Luftwerten kann helfen, das Infektionsrisiko zu senken, weil zeitnah angezeigt wird, wann gelüftet werden muss. Damit wird ein zusätzlicher Baustein zur Pandemiebekämpfung erprobt. Mit Digitalisierungsprojekten wie COMo entwickeln wir die digitale Infrastruktur, die wir für Berlin wollen: transparent und resilient. Eine niedrigschwellige Technologie wie LoRaWAN kann hierbei eine wichtige Unterstützung sein.“&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nicolas Zimmer, Vorstandsvorsitzender der Technologiestiftung Berlin:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;„Mit Open Source und offenen Daten das Infektionsrisiko zu senken: Das Projekt COMo bietet eine wichtige Grundlage, auf deren Basis auch Entwickler:innen mit eigenen Entwicklungen einen zusätzlichen Beitrag leisten können.“&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Die Technologiestiftung plant, gemeinsam mit den Projektpartnern zunächst bis zu 50 öffentlich zugängliche Räume mit CE-konformen NDIR-CO2-Sensoren auszurüsten. Sie messen die Luftwerte und leiten sie an die von der &lt;a href=&quot;https://clair-berlin.de&quot;&gt;Clair-Initiative&lt;/a&gt; errichtete offene Datenplattform weiter. Für die Übertragung wird das LoRaWAN-Netzwerk &lt;a href=&quot;https://www.thethingsnetwork.org/&quot;&gt;„The Things Network“&lt;/a&gt; genutzt. Auf der Plattform werden dann in Echtzeit die Luftwerte veröffentlicht. Bereits jetzt kann man erste Messwerte aus dem Testbetrieb einsehen. Die Betreiber:innen der jeweils erfassten Orte können die Daten von der Plattform in ihren jeweiligen Räumen, beispielsweise auf einem Monitor, zeigen und so für die Besucher:innen Transparenz über die CO2-Konzentration herstellen.&lt;/p&gt;
+
+&lt;p&gt;Im nun beginnenden Pilotbetrieb fokussiert sich das Projekt auf den öffentlichen Betrieb und die horizontale Skalierung, also auf eine möglichst repräsentative Verteilung der Sensorik. Die Initiative wendet sich insbesondere an Betreiber:innen von Restaurants, Theatern, Ausstellungsräumen, Bibliotheken oder Schulungsräumen, um vor allem während der Pandemie eine weitere Hilfestellung bei der Einhaltung der Hygieneregeln zu leisten.&lt;/p&gt;
+
+&lt;p&gt;Interessierte Betreiber:innen von öffentlichen Räumen können sich demnächst unter &lt;a href=&quot;https://clair-berlin.de/mitmachen.html&quot;&gt;https://clair-berlin.de/mitmachen.html&lt;/a&gt; über eine Teilnahme am Projekt und die Zusendung eines CO2-Sensors informieren.&lt;/p&gt;
+
+&lt;p&gt;Mehr Informationen zum Projekt finden sich unter: &lt;a href=&quot;https://www.technologiestiftung-berlin.de/projekte/como-berlin&quot;&gt;https://www.technologiestiftung-berlin.de/projekte/como-berlin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Der Quellcode von Clair liegt offen unter: &lt;a href=&quot;https://github.com/ClairBerlin&quot;&gt;https://github.com/ClairBerlin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;COMo ist ein Projekt der Technologiestiftung Berlin und wird von der Senatskanzlei Berlin gefördert.&lt;/p&gt;
+
+&lt;p&gt;Kontakt: Frauke Nippel, Technologiestiftung Berlin, Pressesprecherin, E-Mail: &lt;a href=&quot;mailto:nippel@technologiestiftung-berlin.de&quot;&gt;nippel@technologiestiftung-berlin.de&lt;/a&gt;, Tel. 0175/72 36 451&lt;/p&gt;
+
+&lt;p&gt;Diese Pressemitteilung als PDF:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/downloads/211208_PE_COMo_Mit_Luftmonitoring_gegen_Corona.pdf&quot;&gt;&lt;img src=&quot;/assets/img/20211209_PM_COMo_th.png&quot; alt=&quot;Abbild der PDF-Datei&quot; class=&quot;mx-0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Jan Weil</name></author><category term="Presse" /><summary type="html">Die Technologiestiftungs startet gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin (HTW Berlin) das Projekt COMo, zum CO2-Monitoring in öffentlich zugänglichen Räumen. Da die CO2-Luftwerte in geschlossenen Räumen auch Rückschlüsse auf die Belastung mit Corona-Viren erlauben, können mit dem Monitoring Risikosituationen frühzeitig erkannt und durch Lüften gebannt werden. Die Idee für das Projekt hatte die Initiative Clair Berlin, die von den IT-Experten Ulrich Schuster und Jan Weil im Zuge der Corona-Pandemie gegründet wurde. Das Projekt COMo wird von der Berliner Senatskanzlei gefördert.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2021-12-09-como.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2021-12-09-como.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hurra Hurra Hurra, das neue Widget ist da!</title><link href="http://localhost:4000/presse/2021/05/31/como.html" rel="alternate" type="text/html" title="Hurra Hurra Hurra, das neue Widget ist da!" /><published>2021-05-31T13:00:00+02:00</published><updated>2021-05-31T13:00:00+02:00</updated><id>http://localhost:4000/presse/2021/05/31/como</id><content type="html" xml:base="http://localhost:4000/presse/2021/05/31/como.html">&lt;h1 id=&quot;hurra-hurra-hurra-das-neue-widget-ist-da&quot;&gt;&lt;strong&gt;Hurra Hurra Hurra, das neue Widget ist da!&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;In unzähligen Stunden wurden Sensoren verteilt und installiert, Messdaten erhoben, gesammelt und anschließend analysiert. Die von diesen Messdaten generierten Informationen werden ab sofort übersichtlich in unserem neuen Widget dargestellt - für die Betreiber:innen, aber vor allem für die Besucher:innen und die ganze Berliner Stadtgesellschaft.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;br /&gt; &lt;strong&gt;Wie funktioniert das Widget genau?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Wie funktioniert das Widget genau?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Sobald der bei den Betreiber:innen installierte Sensor den CO2-Gehalt des Raumes gemessen hat, funkt er seine Messdaten über das Netzwerk LoRaWAN an die COMo-Plattform. Auf unserer Website werden anschließend im neuen Widget die zuletzt erhobenen Messdaten in Verbindung mit einem CO2-Richtwert für Luftqualität in Innenräumen sichtbar. An diesem CO2- Richtwert orientiert sich auch die Hochschule für Technik und Wirtschaft Berlin, die die wissenschaftliche Grundlage dieses Projekts geschaffen hat.&lt;/p&gt;
@@ -18,11 +48,9 @@
   &lt;p&gt;Veröffentlichen die Teilnehmenden die Daten ihrer Räumlichkeiten, kommunizieren sie den Besucher:innen, dass sie sich für eine gesunde Raumlufthygiene einsetzen und beteiligen sich daran, dass Bürger:innen aktiver in wissenschaftliche Forschungsprozesse eingebunden werden – ein Gewinn für das Gemeinwohl. Deshalb nennen wir unser Widget intern auch WINget ;)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;br /&gt; &lt;strong&gt;Welche Informationen werden im Widget angezeigt?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Welche Informationen werden im Widget angezeigt?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_Widget_1.png&quot; alt=&quot;Widget Messwerte&quot; class=&quot;post-img-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_Widget_1.png&quot; alt=&quot;Widget Messwerte&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Die Visualisierung im Widget zeigt einen Balken, auf dem der zuletzt gemessene Messwert und die entsprechende Uhrzeit ersichtlich wird.
@@ -30,13 +58,13 @@ Befindet sich dieser Wert im blauen Bereich (CO2 &amp;lt; 1000 ppm) ist ausreich
 möglichst zeitnah gelüftet werden. Sollte sich der Wert bereits im roten Bereich (CO2 &amp;gt; 2000 ppm) befinden, deutet dies auf eine sehr hohe Aerosollast in der Luft hin und es sollte unverzüglich gelüftet werden. Mehr über die Messwerte, an denen wir uns orientieren, erfährst du &lt;a href=&quot;https://como-berlin.de/faq.html#h2-warum-sollte-die-co-sub-2-sub-konzentration-in-innenräumen-gemessen-werden&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_Widget_2.png&quot; alt=&quot;Widget with infotext&quot; class=&quot;post-img-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_Widget_2.png&quot; alt=&quot;Widget with infotext&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Der farbige Balken sowie der kurze Infotext darunter enthalten sowohl für die Betreiber:innen als auch für die Besucher:innnen wichtige Hinweise. Die Betreiber:innen erkennen, wann in ihren Räumlichkeiten gelüftet werden sollte und auch die Besucher:innen werden über die Raumlufthygiene der Örtlichkeit informiert.&lt;/p&gt;
 
 &lt;p&gt;Sollten an unterschiedlichen Orten in einem Gebäude Sensoren positioniert sein, besteht die Möglichkeit, sich anhand der Pfeile durch die verschiedenen Räumlichkeiten zu navigieren.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_Widget_3.png&quot; alt=&quot;Widget with infotext&quot; class=&quot;post-img-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_Widget_3.png&quot; alt=&quot;Widget with infotext&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Es kann vorkommen, dass der Sensor manchmal keine Daten sammelt oder diese nicht übermittelt werden können, dies kann unterschiedliche Gründe haben. Bei wiederkehrenden Problemen haben die Betreiber:innen die Möglichkeit, sich an das COMo- Team zu wenden. Alles zu der Technik, die hinter COMo steckt, erfährst du &lt;a href=&quot;https://como-berlin.de/faq.html#sensoren&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;
 
@@ -45,56 +73,6 @@ möglichst zeitnah gelüftet werden. Sollte sich der Wert bereits im roten Berei
 &lt;p&gt;Damit noch mehr Daten und Wissen geteilt werden können wird COMo zusätzlich in die Datenplattform für IoT-Projekte &lt;a href=&quot;https://stadtpuls.com/COMo-Projekt/sensors&quot;&gt;Stadtpuls&lt;/a&gt; integriert - einfach SENSORtionell!&lt;/p&gt;
 
 &lt;p&gt;Literatur:
-Schmohl, Tobias, Thorsten, Philipp (Hg.): Handbuch Transdisziplinäre Didaktik, Bielefeld, 2021.&lt;/p&gt;</content><author><name>Nora Eilers</name></author><category term="Presse" /><summary type="html">In unzähligen Stunden wurden Sensoren verteilt und installiert, Messdaten erhoben, gesammelt und anschließend analysiert. Die von diesen Messdaten generierten Informationen werden ab sofort übersichtlich in unserem neuen Widget dargestellt - für die Betreiber:innen, aber vor allem für die Besucher:innen und die ganze Berliner Stadtgesellschaft.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2021-12-09-como.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2021-12-09-como.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Auch richtig Lüften will gelernt sein</title><link href="http://localhost:4000/presse/2021/05/25/como.html" rel="alternate" type="text/html" title="Auch richtig Lüften will gelernt sein" /><published>2021-05-25T13:00:00+02:00</published><updated>2021-05-25T13:00:00+02:00</updated><id>http://localhost:4000/presse/2021/05/25/como</id><content type="html" xml:base="http://localhost:4000/presse/2021/05/25/como.html">&lt;h1 id=&quot;auch-richtig-lüften-will-gelernt-sein&quot;&gt;&lt;strong class=&quot;post-title&quot;&gt;Auch richtig Lüften will gelernt sein&lt;/strong&gt;&lt;/h1&gt;
+Schmohl, Tobias, Thorsten, Philipp (Hg.): Handbuch Transdisziplinäre Didaktik, Bielefeld, 2021.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;br /&gt; &lt;strong&gt;Dicke Luft seit 1850 – Zeit richtig zu Lüften&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;“Bloßes Wissen, bloße Kenntnis von Dingen und Tatsachen allein ist noch keine Wissenschaft, erst wer etwas über Entwicklung und ursächlichen Zusammenhang der Dinge erforscht, was bisher unbekannt war, treibt Wissenschaft” schrieb der deutsche Hygieniker und Chemieprofessor Max von Pettenkofer, der sich bereits Mitte des 19. Jahrhunderts mit dem Themen Luft und Luftqualität beschäftigte. Pettenkofer kam zu dem Schluss, dass der Mensch die Hauptverunreinigungsquelle der Luft ist. Heute wissen wir jedoch, dass die Luftqualität in Innenräumen von vielen unterschiedlichen Faktoren abhängig ist. Im Jahr 1918 erkannten Wissenschaftler:innen, dass nicht nur die Personen, sondern auch die Einrichtungsgegenstände und die Raumausstattung grossen Einfluss auf die Luftqualität in Innenräumen haben. Dennoch erscheint uns das Lüften meist als ein rein intuitiver Vorgang, den wir eher nach dem eigenen Befinden ausführen, als uns dabei an objektiven und messbaren Kriterien zu orientieren. Doch warum eigentlich? Ganz in Pettenkofers Sinne wollen wir dem Lüften einmal auf den Grund gehen, um dadurch neue Entwicklungen und Zusammenhänge besser verstehen zu können.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;br /&gt; &lt;strong&gt;Durchdachtes Lüften – Was macht gute Raumluft mit uns?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Obwohl Luftqualität also kein Thema der Moderne ist, war es noch nie so wichtig wie heute, ein Raumklima zu erzeugen, in dem wir uns wohlfühlen. Dies liegt vor allem daran, dass in der Regel die meisten Menschen in unserer westlichen Gesellschaft 80 - 90 Prozent ihres Tages in Räumen verbringen und besonders in der kälteren Jahreszeit verlagert sich auch das private und gesellschaftliche Leben vermehrt nach drinnen.
-Räume, die wir dabei als behaglich empfinden, fördern nicht nur unser Wohlbefinden und unsere Gesundheit, sondern auch unsere Leistungsbereitschaft. An Arbeitsplätzen kann es bei einer schlechten Luftqualität und der daraus resultierenden Unzufriedenheit zu einer geringeren Produktivität der Beschäftigten kommen. Ein weiterer Aspekt des Lüftens betrifft die Energieeffizienz von Lüftungsmaßnahmen. Gebäudewärme macht etwa 30 Prozent des gesamten CO2-Ausstoßes in Deutschland aus. Optimierte, durchdachte und datenbasierte Lüftungsmaßnahmen können dabei helfen, dass in Zukunft energieeffizienter gelüftet wird.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;br /&gt; &lt;strong&gt;Doch wie kann sich “Behaglichkeit” überhaupt messen lassen?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Wie bereits erwähnt, kann unsere Luft von den unterschiedlichsten Faktoren beeinflusst werden. Dabei kann zwischen thermischen Einflüssen, die auf den Wärmehaushalt der Menschen einwirken und der Raumluftqualität unterschieden werden. Luftqualität ist dabei ein Maß für die Reinheit beziehungsweise die Schadstoffbelastung in unserer Luft. Spätestens seit der SARS-CoV-2-Pandemie und anderen viralen Infekten, bei denen sich Viren über die Luft übertragen, gilt Lüften auch als gute Maßnahme, um das Infektionsrisiko zu minimieren und die Luftqualität zu steigern. Besonders die CO2-Konzentration gilt als guter Indikator für den Luftwechsel und die Luftqualität. Coronaviren werden hauptsächlich über virushaltige
-Flüssigkeitspartikel übertragen, die beim Atmen, Husten, Sprechen oder Niesen entstehen und sich über die Luft verbreiten. Wie viele solcher Flüssigkeitspartikel ein Mensch erzeugt, hängt stark von seiner Atemfrequenz und seiner Aktivität ab. Kommen viele Personen in einem Gebäude oder auf engem Raum zusammen, wird das Infektionsrisiko durch die gleichzeitige Aktivität dieser Menschen beeinflusst. Eine hohe Frischluftzufuhr durch regelmäßiges Lüften ist eine der wirksamsten Methoden, potenziell virushaltige Aerosole aus Innenräumen zu entfernen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;br /&gt; &lt;strong&gt;Was steckt eigentlich hinter “Fenster auf und Fenster zu”?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Es gibt verschiedene freie, nicht maschinelle Lüftungsformen, wobei die Fensterlüftung die einfachste und am weitesten verbreitetste Form ist – und somit auch die Relevanteste. Es kann zwischen zwei Formen der Fensterlüftung unterschieden werden und zwar zwischen Stoßlüften, dabei ist das Fenster für einige Minuten komplett geöffnet und dem Dauerlüften, bei dem das Fenster gekippt ist. Je nach Öffnungsart variiert der Luftaustausch. Da die Öffnungsfläche bei gekippten Fenstern jedoch gering ist, kann nur ein Teil des erforderlichen Luftwechsels ermöglicht werden. Es kann deshalb meist keine akzeptable Raumluftqualität allein durch ein Kippfenster sichergestellt werden. Beim Fensterlüften muss außerdem die Abhängigkeit von den jeweiligen Wetterbedingungen berücksichtigt werden, bei Schnee oder Regen ist es beispielsweise nicht immer möglich, die Fenster vollständig zu öffnen. Ist es draußen besonders kalt, wird oftmals auf das Öffnen der Fenster verzichtet, was auf einen hohen CO2-Wert schließen lässt und eine schlechte Raumluftqualität zur Folge hat. Werden die Fenster dennoch geöffnet, fangen die meisten Menschen schnell an zu frieren. Um sich wieder behaglich zu fühlen, werden die Heizungen aufgedreht und es entstehen höhere Energiekosten.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/Bild_Blogbeitrag_L%C3%BCften-croped.png&quot; alt=&quot;Grefik korrektes Lüften&quot; class=&quot;post-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;post-img-label&quot;&gt;Die Abbildung liefert einen ungefähren Anhaltspunkt, genaue Zeitangaben benötigen definierte Faktoren wie die konkrete Raumgröße und die genaue Innen- und Außentemperatur.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;br /&gt; &lt;strong&gt;Effektives Lüften – Wie dich Sensoren dabei unterstützen können&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Aus energetischer Sicht erscheint Fensterlüftung deshalb unabhängig von der Lüftungsart besonders im Winter ungeeignet, da hohe Wärmeenergieverluste entstehen können. Das muss aber nicht so sein, denn Sensoren ermöglichen uns eine neue Art des Lüftens. Auf der COMo Plattform wird dir die Luftqualität vor Ort angezeigt. Steigt die CO2-Konzentration in deinen Räumlichkeiten, weisst du, dass es an der Zeit ist zu lüften. Dabei folgst du nicht nur einem bloßen Gefühl, sondern tust dies effizient und datenbasiert. Da COMo den CO2-Wert über mehrere Tage hinweg anzeigt, wird auch deutlich, dass sich nachhaltig um eine gute Raumluft gekümmert wird.
-Damit wir uns auch drinnen wieder so wohlfühlen wie draussen.&lt;/p&gt;
-
-&lt;p&gt;Literatur:
-vgl. Müller, Birgit/Panaskova, Jana/Müller, Dirk/Horn, Wolfgang/Jann, Oliver/ Scutaru, Ana Maria/ Plehn, Wolfgang: Entwicklungen der Bewertungsmethodik von Gerüchen in Innenräumen, in: Gebäudetechnik Innenraumklima (GI), Nr. 02, 2014, S. 70-73.
-vgl. Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie (BMK).: Positionspapier zu lüftungsunter- stützenden Maßnahmen zur Infektionsprophylaxe – Einsatz von Luftreinigern und Einbringung von Wirkstoffen in die Innenraumluft, in: Positionspapier des Arbeitskreises Innenraumluft, Stand 09.06.2021, https://www.bmk.gv.at/themen/klima_umwelt/luft/innenraum/arbeitskreis.html#positionspapiere (abgerufen am 21.09.2021), S. 5,6
-vgl. Umweltbundesamt.: Das Risiko einer Übertragung von SARS-CoV-2 in Innenräumen lässt sich durch geeignete Lüftungsmaßnahmen reduzieren
-Stellungnahme der Kommission Innenraumlufthygiene am Umweltbundesamt, in: https://clair-berlin.de/downloads/irk-lueften-sars-cov-2.pdf (abgerufen am 22.10.2021), S. 2,3
-vgl. Recknagel, Herbert/Sprenger, Eberhard/Sprenger, Eberhard: Taschenbuch für Heizung + Klimatechnik, 76. Auflage., München, Deutschland: Oldenbourg Industrieverlag, 2013/2014, S. 1088-1111
-vgl. Müller, Birgit/ Geier, Maxim/ Krimmel, Philipp/ Müller, Wolfram/ Richter-Kowalewski, Kathrin: Leitfaden zur Raumluftkonditionierung in Schulen bei Neubau und Sanierung unter Beachtung ökonomischer, ökologischer und soziokultureller Aspekte, in: Senatsverwaltung für Stadtentwicklung und Umwelt, 2014, https://www.stadtentwicklung.berlin.de/bauen/nachhaltiges_bauen/de/technische-gebaeudeausruestu ng/lueftung_schulen/index.shtml (abgerufen am 21.09.2021), S. 17
-vgl. Fitzner, Klaus/Finke, Ulrich: Lüftungsregeln für freie Lüftung, in: Bundesanstalt für Arbeitsschutz und Arbeitsmedizin, Projekt F 2072, 2012, https://www.baua.de/DE/Angebote/Publikationen/Berichte/F2072.pdf?__blob=publicationFile&amp;amp; (abgerufen am 22.10.2021), S. 35&lt;/p&gt;</content><author><name>Nora Eilers</name></author><category term="Presse" /><summary type="html">Im Jahr 1918 erkannten Wissenschaftler:innen, dass nicht nur die Personen, sondern auch die Einrichtungsgegenstände und die Raumausstattung grossen Einfluss auf die Luftqualität in Innenräumen haben. Dennoch erscheint uns das Lüften meist als ein rein intuitiver Vorgang, den wir eher nach dem eigenen Befinden ausführen, als uns dabei an objektiven und messbaren Kriterien zu orientieren. Doch warum eigentlich?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2021-12-09-como.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2021-12-09-como.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;TODO: STYLING/FORMATTING&lt;/p&gt;</content><author><name>Nora Eilers</name></author><category term="Presse" /><summary type="html">In unzähligen Stunden wurden Sensoren verteilt und installiert, Messdaten erhoben, gesammelt und anschließend analysiert. Die von diesen Messdaten generierten Informationen werden ab sofort übersichtlich in unserem neuen Widget dargestellt - für die Betreiber:innen, aber vor allem für die Besucher:innen und die ganze Berliner Stadtgesellschaft.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2021-12-09-como.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2021-12-09-como.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
