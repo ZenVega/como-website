@@ -2449,9 +2449,11 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 @font-face { font-display: swap; font-family: ClanPro; font-style: normal; font-weight: 800; src: local("ClanPro Bold"), url(https://www.technologiestiftung-berlin.de/assets/fonts/ClanPro-Bold.woff2) format("woff"); }
 
-.post h1, .post .h1 { font-weight: 700; font-size: 48px; line-height: 56px; }
+.post h1, .post .h1 { font-weight: 700; font-size: 36px; line-height: 42px; margin-bottom: 15px; }
 
-.post .img-center { display: block; margin: 0 auto; width: 100%; max-width: 400px; }
+@media (min-width: 768px) { .post h1, .post .h1 { font-size: 48px; line-height: 56px; } }
+
+.post-img-center { display: block; margin: 40px auto; width: 100%; max-width: 400px; }
 
 body { position: relative; }
 
