@@ -1,5 +1,6 @@
 $primary: #1e398f;
 $secondary: #121212;
+$text-color: #3b3b3a;
 
 $btn-border-radius: 2px;
 $btn-padding-x: 22px;
@@ -28,7 +29,7 @@ body {
 
 * {
     font-family: "ClanPro", sans-serif;
-    color: #3b3b3a;
+    color: $text-color;
     font-weight: normal;
     line-height: 32px;
 }
@@ -67,7 +68,7 @@ button.navbar-toggler {
     font-size: 18px;
     font-weight: normal;
     line-height: 24px;
-    color: #3b3b3a !important;
+    color: $text-color !important;
     margin: 0 24px !important;
     padding: 0 !important;
     display: inline-block;
@@ -171,7 +172,7 @@ h4 {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-    color: #3b3b3a;
+    color: $text-color;
 }
 
 #sponsor-logo {
