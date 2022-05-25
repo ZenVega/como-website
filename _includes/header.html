@@ -26,14 +26,14 @@
                     {% assign href = nav.href | remove: "index.html" %}
                     {% else %}
                     {% assign href = nav.href %}
-                    {% assign URL = nav.href | remove: ".html" | remove: ".md" %}
+                    {% assign URL = nav.href | remove: ".html" | remove: ".md" | remove: "/" %}
                     {% assign pagename = page.name | remove: ".html" | remove: ".md" %}
                     {% endif %}
                     <li class="nav-item">
                         {% if URL == pagename %}
                         <a class="nav-link active touch-target" href="{{ href }}">{{ nav.text }}</a>
                         {% else %}
-                        <a class="nav-link touch-target" href="{{ href }}">{{ nav.text }}</a>
+                        <a class="nav-link touch-target" href="/{{ href }}">{{ nav.text }}</a>
                         {% endif %}
                     </li>
                     {% endfor %}
