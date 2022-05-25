@@ -2449,6 +2449,30 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 @font-face { font-display: swap; font-family: ClanPro; font-style: normal; font-weight: 800; src: local("ClanPro Bold"), url(https://www.technologiestiftung-berlin.de/assets/fonts/ClanPro-Bold.woff2) format("woff"); }
 
+.post-list { list-style: none; }
+
+.post-list .post-meta { font-size: 12px; line-height: 24px; margin-bottom: 9px; }
+
+.post-list-title { font-weight: 700; font-size: 20px; line-height: 32px; color: #3b3b3a; margin-bottom: 14px; }
+
+.post-list-excerpt { font-size: 14px; line-height: 24px; margin-bottom: 15px; }
+
+.post-list .post-link { font-weight: 700; }
+
+.post-list-seperator { height: 1px; width: 100%; background: #E3E3E3; border-radius: 2px; margin: 42px 0 39px; }
+
+.post-list li:last-of-type .post-list-seperator { display: none; }
+
+.post h1, .post .h1 { font-weight: 700; font-size: 36px; line-height: 42px; margin-bottom: 15px; }
+
+@media (min-width: 768px) { .post h1, .post .h1 { font-size: 48px; line-height: 56px; } }
+
+.post-img { width: 100%; }
+
+.post-img-center { display: block; margin: 40px auto; max-width: 400px; }
+
+.post-img-label { font-size: 16px; line-height: 32px; color: #6F6F6E; text-align: right; }
+
 body { position: relative; }
 
 * { font-family: "ClanPro", sans-serif; color: #3b3b3a; font-weight: normal; line-height: 32px; }
@@ -2525,7 +2549,35 @@ h4, .h4 { color: #1e398f; font-family: "ClanPro", sans-serif; font-weight: bold;
 
 .row-member { margin-top: 72px; }
 
-main p a, .body-link, .accordion-body a { font-weight: 700; color: #1E398F; }
+.widget-section { display: flex; flex-direction: row; gap: 16px; justify-content: center; margin-top: 16px; }
+
+@media (max-width: 768px) { .widget-section { gap: 24px; flex-direction: column; } }
+
+.site-card-container { display: flex; flex-direction: column; gap: 12px; }
+
+@media (max-width: 768px) { .site-card-container { flex-direction: row; gap: 20px; padding: 8px 0px; overflow: scroll; } }
+
+.site-card { display: flex; min-width: 224px; width: 224px; padding: 20px 21px; cursor: pointer; background: #ffffff; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 0px 16px rgba(0, 0, 0, 0.08); border-radius: 8px; }
+
+.site-card.active { background-color: #1e398f; }
+
+.site-card.active .site-name { color: #ffffff; }
+
+.site-card.active .site-sensors { color: #dadada; }
+
+.site-card.active .site-logo { filter: grayscale(100%) invert(1) brightness(200%); }
+
+.site-logo { margin-right: 24px; }
+
+.site-name { font-weight: 700; font-size: 18px; line-height: 24px; color: #1e398f; margin-bottom: 6px; }
+
+.site-sensors { font-weight: 500; font-size: 12px; line-height: 16px; letter-spacing: 0.01em; color: #626aaf; }
+
+.widget { display: flex; max-width: 359px; background: #ffffff; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 0px 16px rgba(0, 0, 0, 0.08); border-radius: 8px; height: 100%; overflow: hidden; }
+
+@media (max-width: 768px) { .widget { margin: 0 auto; } }
+
+main p a, .body-link, .accordion-body a { font-weight: 700; color: #1e398f; }
 
 .h3-faq { margin-top: 122px; font-family: "ClanPro"; font-style: normal; font-weight: bold; font-size: 24px; line-height: 56px; color: #1e398f; }
 
