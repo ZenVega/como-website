@@ -1,5 +1,10 @@
+.container-section.post-overview {
+    padding-top: 0;
+}
+
 .post-list {
     list-style: none;
+    padding: 16px 12px 0;
 
     .post-meta {
         font-size: 12px;
@@ -40,6 +45,10 @@
     }
 }
 
+.container-section.post-section {
+    padding-top: 16px;
+}
+
 .post {
 
     h1 {
@@ -54,12 +63,17 @@
         }
     }
 
+    &-meta {
+        font-size: 12px;
+    }
+
     &-img {
-        
         width: 100%;
+        
         &-center {
             display: block;
             margin: 40px auto;
+            width: 100%;
             max-width: 400px;
         }
 
