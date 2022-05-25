@@ -1,5 +1,10 @@
+.container-section.post-overview {
+    padding-top: 0;
+}
+
 .post-list {
     list-style: none;
+    padding: 16px 12px 0;
 
     .post-meta {
         font-size: 12px;
@@ -40,6 +45,10 @@
     }
 }
 
+.container-section.post-section {
+    padding-top: 16px;
+}
+
 .post {
 
     h1 {
@@ -54,11 +63,26 @@
         }
     }
 
-    &-img-center {
-        display: block;
-        margin: 40px auto;
+    &-meta {
+        font-size: 12px;
+    }
+
+    &-img {
         width: 100%;
-        max-width: 400px;
+        
+        &-center {
+            display: block;
+            margin: 40px auto;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        &-label {
+            font-size: 16px;
+            line-height: 32px;
+            color: #6F6F6E;
+            text-align: right;
+        }
     }
     
 }
