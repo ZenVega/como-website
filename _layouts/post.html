@@ -29,7 +29,7 @@ layout: page
       {{ content }}
     </div>
 
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    <a class="u-url" href="{% if post.alternativeUrl %}{{ post.alternativeUrl }}{% elsif post.url %}{{ post.url }}{% elsif relative_url %}{{ relative_url }}{% endif %}" hidden></a>
 
   </article>
 </div>
