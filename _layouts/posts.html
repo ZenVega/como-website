@@ -26,7 +26,11 @@ layout: page
           {{ post.title | escape }}
         </h4>
         <p class="post-list-excerpt">{{ post.excerpt }}</p>
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        <a 
+          class="post-link" 
+          href="{% if post.alternativeUrl %}{{ post.alternativeUrl }}{% elsif post.url %}{{ post.url }}{% elsif relative_url %}{{ relative_url }}{% endif %}"
+          target="{% if post.alternativeUrl %}{{ "_blank" }}{% elsif post.url %}{{ "_self" }}{% elsif relative_url %}{{ "_self" }}{% endif %}"
+          >
           Mehr dazu
         </a>
         <div class="post-list-seperator"></div>
