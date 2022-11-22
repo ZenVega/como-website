@@ -19,7 +19,6 @@
           1000 < CO<sub>2</sub> < 2000 ppm -> „hygienisch auffällig“ (gelb)
 
           CO<sub>2</sub> > 2000 ppm -> „hygienisch inakzeptabel“ (rot)
-          
       - question: Wie genau kann uns ein CO<sub>2</sub>-Sensor bei der Verbesserung der Luftqualität unterstützen?
         answer: |
           Ein CO<sub>2</sub>-Sensor nimmt die Umgebungsluft auf und bestimmt den Anteil an CO<sub>2</sub>-Molekülen, typischerweise in der Einheit ppm, Parts per Million (Anzahl pro Million). Vernetzte CO<sub>2</sub>-Sensoren sind kommerziell erhältlich und sind etwa so groß wie ein Rauchmelder. Sie verfügen über einen Netzwerkanschluss, sodass sie die Messdaten über das Internet an einen Server schicken können - wie die COMo - Plattform. Wir nutzen also den Sensor als Hilfsmittel zur Messung von CO<sub>2</sub>-Werten und anschliessend zur Übertragung der Daten über das [LoRaWAN - Netzwerk](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network){:target="_blank"}. Durch die Aufarbeitung und Visualisierung der Daten können wir danach Aussagen über die Luftqualität herleiten und dich beim bedarfsgerechten Lüften unterstützen.
