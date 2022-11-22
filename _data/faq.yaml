@@ -13,9 +13,9 @@
           Außerdem ist die CO<sub>2</sub>-Konzentration in Innenräumen ein guter Indikator für die Konzentration von Aerosolen aus der Atemluft. Eine niedrigere Anzahl Aerosole in der Luft kann das Risiko einer Ansteckung mit dem Coronavirus minimieren. Wer genau weiß, wann sich die Luftqualität verschlechtert, also eine erhöhte Aerosollast im Raum ist, kann entsprechend bedarfsgerecht lüften. 
 
           An folgenden Richtwerten orientieren wir uns:  
-          CO<sub>2</sub> < 1000 ppm -> „hygienisch unbedenklich“  
-          1000 < CO<sub>2</sub> < 2000 ppm -> „hygienisch auffällig“  
-          CO<sub>2</sub> > 2000 ppm -> „hygienisch inakzeptabel“
+          CO<sub>2</sub> < 1000 ppm -> „hygienisch unbedenklich“ (blau) 
+          1000 < CO<sub>2</sub> < 2000 ppm -> „hygienisch auffällig“ (gelb) 
+          CO<sub>2</sub> > 2000 ppm -> „hygienisch inakzeptabel“ (rot)
       - question: Wie genau kann uns ein CO<sub>2</sub>-Sensor bei der Verbesserung der Luftqualität unterstützen?
         answer: |
           Ein CO<sub>2</sub>-Sensor nimmt die Umgebungsluft auf und bestimmt den Anteil an CO<sub>2</sub>-Molekülen, typischerweise in der Einheit ppm, Parts per Million (Anzahl pro Million). Vernetzte CO<sub>2</sub>-Sensoren sind kommerziell erhältlich und sind etwa so groß wie ein Rauchmelder. Sie verfügen über einen Netzwerkanschluss, sodass sie die Messdaten über das Internet an einen Server schicken können - wie die COMo - Plattform. Wir nutzen also den Sensor als Hilfsmittel zur Messung von CO<sub>2</sub>-Werten und anschliessend zur Übertragung der Daten über das [LoRaWAN - Netzwerk](https://de.wikipedia.org/wiki/Long_Range_Wide_Area_Network){:target="_blank"}. Durch die Aufarbeitung und Visualisierung der Daten können wir danach Aussagen über die Luftqualität herleiten und dich beim bedarfsgerechten Lüften unterstützen.
@@ -39,9 +39,11 @@
           Sensoren können verschiedene Funknetzwerke nutzen, um ihre Daten zu übermitteln. Unsere Sensoren konzentrieren sich auf die auf Messdaten spezialisierte Technologie LoRaWAN, die eine große Reichweite und einen geringen Energieverbrauch bietet. Das LoRaWAN - Netzwerk in Berlin wird zu großen Teilen von den Freiwilligen der The Things Network Community Berlin ([TTN Berlin](https://www.thethingsnetwork.org/community/berlin/){:target="_blank"}) betrieben, ohne diese ehrenamtliche Arbeit wären solche Projekte nicht möglich.
       - question: Welcher Sensor kommt zum Einsatz?
         answer: |
-          Wir benutzen die CO<sub>2</sub>-Sensoren [ERS LITE](https://www.elsys.se/en/ers-co2-lite/){:target="_blank"}. Diese Sensoren sind in der Lage CO<sub>2</sub>-Werte zu messen und diese Informationen mit der LoRaWAN-Technologie zu senden. 
+          Wir benutzen die CO<sub>2</sub>-Sensoren [ERS LITE](https://elsys.se/public/datasheets/ERS_CO2_Lite_datasheet.pdf){:target="_blank"}. Diese Sensoren sind in der Lage CO<sub>2</sub>-Werte zu messen und diese Informationen mit der LoRaWAN-Technologie zu senden. 
 
           Der Sensor kann so eingestellt werden, dass in den gewünschten zeitlichen Abständen ein Messwert aufgenommen und gesendet wird. Zwischen zwei Messungen befindet sich der Sensor im “Sleep” Modus und hat somit nur einen geringen Stromverbrauch. Je nach Einstellungen und Netzabdeckung des Standortes können die Batterien dadurch eine Lebensdauer von bis zu 5 Jahren haben. Der Sensor sendet dabei auf einem öffentlichen, freien Frequenzband.
+
+          Der Sensor ist weiß, nicht viel größer als ein handelsüblicher Rauchwarnmelder und ein Fliegengewicht (86 x 86 x 27 mm, 120g). Dadurch lässt er sich unkompliziert an der Wand anbringen.
       - question: Wie sollte der Sensor am besten platziert werden?
         answer: |
           Damit der Sensor am effizientesten den CO<sub>2</sub>-Gehalt messen kann, sollte dieser in dem Bereich des Raumes aufgehängt werden, in dem sich die meisten Personen aufhalten, also auch die meiste Luft ein- und ausgeatmet wird. Für eine optimale Datenerhebung wird empfohlen, den Sensor in der Mitte des Raumes auf Nasenhöhe anzubringen. Das ist meist schwer zu realisieren und je nach Tätigkeit kann die Höhe variieren. Ein Richtwert ist daher 1,70 m (stehend) und 1,10 m (sitzend). 
@@ -61,7 +63,7 @@
           Je nach Netzabdeckung des eigenen Standortes können mehr oder weniger Messdaten übermittelt werden. LoRaWAN hat dabei die Vorgabe, dass jedes Gerät 30 Sekunden Airtime (Zeit in der das Gerät Informationen senden kann) pro Tag zur Verfügung hat. Eine schlechte Netzabdeckung kann mit Hilfe von [Gateways](https://de.wikipedia.org/wiki/Gateway_(Informatik)){:target="_blank"} verbessert werden.
       - question: Wofür steht die Abkürzung TTN?
         answer: |
-          TTN steht für “[The Things Network](https://www.thethingsnetwork.org/){:target="_blank"}" und bezeichnet eine offene und community basierte Initiative, die eine Reihe an Open Source LoRaWAN - Lösungen entwickeln. Ihr Ziel ist es, Internet of Things (IoT) Anwendungen zu erstellen und ein kollaboratives Internet der Dinge-Netzwerk aufzubauen, das sich über viele Länder in der ganzen Welt erstreckt.<br><br>Auch in Berlin gibt es eine sehr lebendige TTN-[Community](https://www.thethingsnetwork.org/community/berlin/){:target="_blank"}, durch deren Engagement die Basis für das COMo-Sensornetzwerk bereitsteht.
+          TTN steht für “[The Things Network](https://www.thethingsnetwork.org/){:target="_blank"}" und bezeichnet eine offene und community basierte Initiative, die eine Reihe an Open Source LoRaWAN-Lösungen entwickeln. Ihr Ziel ist es, Internet of Things (IoT) Anwendungen zu erstellen und ein kollaboratives Internet der Dinge-Netzwerk aufzubauen, das sich über viele Länder in der ganzen Welt erstreckt.<br><br>Auch in Berlin gibt es eine sehr lebendige TTN-[Community](https://www.thethingsnetwork.org/community/berlin/){:target="_blank"}, durch deren Engagement die Basis für das COMo-Sensornetzwerk bereitsteht.
       - question: Was ist ein Gateway?
         answer: |
           Als [Gateway](https://de.wikipedia.org/wiki/Gateway_(Informatik)){:target="_blank"} bezeichnet man eine Soft- oder Hardwarekomponente, die eine Verbindung zwischen zwei unterschiedlichen Systemen herstellt. Gateways übernehmen also die Rolle eines Vermittlers. In unserem Fall werden die Daten des Sensors in einem ersten Schritt an ein Gateway gesendet und in einem zweiten Schritt sendet dann das Gateway diese über das Internet an die COMo-Plattform.
@@ -69,7 +71,7 @@
     questions:
       - question: Welche Daten werden erhoben?
         answer: |
-          Wir als Macher:innen von COMo benötigen im Projekt keine persönlichen Daten, sondern nur ohnehin zugängliche Daten von Institutionen, wie Postadresse, öffentliche Mailadresse oder Social Media - Handles sowie die Messwerte der dort installierten Sensoren. Für unsere Messungen erheben und speichern wir lediglich den Standort des Sensors sowie die Daten, die der Sensor liefert. Alle Fragen zu Speicherung, Veröffentlichung und Nutzung der Sensordaten werden in einer Nutzungsvereinbarung näher erläutert und vor Beginn des Betriebs mit unseren Partner:innen vereinbart.
+          Wir als Macher:innen von COMo benötigen im Projekt keine persönlichen Daten, sondern nur ohnehin zugängliche Daten von Institutionen, wie Postadresse, öffentliche Mailadresse oder Social Media Handles sowie die Messwerte der dort installierten Sensoren. Für unsere Messungen erheben und speichern wir lediglich den Standort des Sensors sowie die Daten, die der Sensor liefert. Alle Fragen zu Speicherung, Veröffentlichung und Nutzung der Sensordaten werden in einer Nutzungsvereinbarung näher erläutert und vor Beginn des Betriebs mit unseren Partner:innen vereinbart.
       - question: Was passiert mit meinen Daten?
         answer: |
           Da wir im COMo-Projekt Daten unserer Nutzer:innen erfassen, haben wir einen Rechtsanwalt zur Vereinbarkeit unseres Projekts mit den Grundsätzen der DSGVO befragt. Denn wo Daten erfasst werden, muss dies transparent erfolgen und geprüft werden, ob die Erfassung und Speicherung im Sinne des jeweiligen Projekts notwendig sind. 
