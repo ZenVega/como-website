@@ -13,8 +13,11 @@
           Außerdem ist die CO<sub>2</sub>-Konzentration in Innenräumen ein guter Indikator für die Konzentration von Aerosolen aus der Atemluft. Eine niedrigere Anzahl Aerosole in der Luft kann das Risiko einer Ansteckung mit dem Coronavirus minimieren. Wer genau weiß, wann sich die Luftqualität verschlechtert, also eine erhöhte Aerosollast im Raum ist, kann entsprechend bedarfsgerecht lüften. 
 
           An folgenden Richtwerten orientieren wir uns:  
+
           CO<sub>2</sub> < 1000 ppm -> „hygienisch unbedenklich“ (blau) 
-          1000 < CO<sub>2</sub> < 2000 ppm -> „hygienisch auffällig“ (gelb) 
+
+          1000 < CO<sub>2</sub> < 2000 ppm -> „hygienisch auffällig“ (gelb)
+
           CO<sub>2</sub> > 2000 ppm -> „hygienisch inakzeptabel“ (rot)
       - question: Wie genau kann uns ein CO<sub>2</sub>-Sensor bei der Verbesserung der Luftqualität unterstützen?
         answer: |
