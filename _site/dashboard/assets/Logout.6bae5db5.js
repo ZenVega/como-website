@@ -1,0 +1,1 @@
+import{b as s,aA as n,aB as r,o as c,f as i,g as l,t as u}from"./index.adbad838.js";const m={__name:"Logout",async setup(_){let o,t;const e=s();return[o,t]=n(()=>e.dispatch("authuser/logout")),await o,t(),r.remove("csrftoken"),window.location.href=window.location.origin+"/accounts/login/",(a,p)=>(c(),i("div",null,[l("h1",null,u(a.$t("logging-out")),1)]))}};export{m as default};
